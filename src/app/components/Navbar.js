@@ -18,18 +18,18 @@ export default function Navbar() {
     <div className=" w-screen  " id="navbar ">
       
 
-      <div className="justify-between lg:justify-center flex lg:grid grid-cols-12 xl:px-28  lg:p-10 px-6 py-2  w-full">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28  lg:p-10 px-6 py-2  w-[90%] border">
 
-        <div className="navbar_left col-span-3 ">
+        <div className="col-span-3">
 
           <Link href="/">
-            <Image className=" justify-end items-end md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
+            <Image className=" border md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
             </Link>          
           </div>
 
-        <div className="navbar_right justify-end items-end lg:col-span-9 xl-col  flex">
+        <div className="justify-end lg:col-span-9 flex border">
 
-          <ul className="xl:text-xl grid grid-cols-7 lg:gap-4 xl:gap-7 justify-end items-end my-auto max-lg:hidden">
+          <ul className="xl:text-xl flex lg:gap-3 xl:gap-7 border my-auto max-lg:hidden space-x-3">
 
             <li>
               <Link href="/" className="links">

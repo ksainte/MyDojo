@@ -18,25 +18,6 @@
 
 }
 
-/* .navbar_left{
-
-} */
-
-.logo{
-  height:100px;
-  width : 350px;
-}
-
-
-.navbar_links{
-    display: flex;
-    list-style: none;
-}
-
-/* .test{
-    border:solid red;
-    font-size: 5rem;
-} */
 .links {
     /* border: solid green; */
     color : black;
