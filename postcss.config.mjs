@@ -7,6 +7,7 @@ const config = {
         'medium': '768px',  // Custom medium breakpoint (e.g., tablets)
         'lg': '1024px',     // Default large breakpoint (e.g., laptops)
         'xl': '1280px',     // Default extra-large breakpoint (e.g., desktops)
+        '2xl': '1536px',
         'max-lg': {'max': '1024px'}, 
       },
       fontSize: {
