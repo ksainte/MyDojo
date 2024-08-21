@@ -1,0 +1,19 @@
+.App {
+    /* background-color:#ebddc995; */
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+  
+  .App_body{
+  
+    align-items:center;
+    justify-content: center;
+    width:100vw;
+    font-size: 62.5%;
+
+    /* border: solid red; */
+  }

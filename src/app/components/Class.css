@@ -1,0 +1,208 @@
+.navbar{
+    
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0); 
+    z-index: 1000; 
+    /* border: solid red; */
+
+}
+
+.navbar_comp{
+    width: 100vw;
+  
+    /* align-items: center; */
+    /* justify-content : space-between; */
+    top: 0px;
+    /* padding-top:10px;
+    padding-bottom: 10px; */
+
+}
+
+/* .navbar_left{
+
+} */
+
+.logo{
+  height:100px;
+  width : 350px;
+}
+
+
+.navbar_links{
+    display: flex;
+    list-style: none;
+}
+
+/* .test{
+    border:solid red;
+    font-size: 5rem;
+} */
+.links {
+    /* border: solid green; */
+    color : black;
+    font-family: monospace;
+    text-decoration: none;
+  
+    font-weight: 380;
+    line-height: 1.75rem;
+    letter-spacing: -0.055em;
+    opacity: 1;
+
+    --tw-space-x-reverse: 0;
+
+
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: white; */
+  }
+  
+
+  li a:hover{
+    background-color: none;
+    text-decoration: underline;
+    text-decoration: solid underline black 4px;
+    font-weight: 450;
+  
+  }
+  
+/*================================================================*/
+/*THIS IS RESPONSIVE PART
+
+/*par default hamburger avec menu existe pas*/
+
+.smallscreen {
+  display: none;
+}
+
+.app__navbar-smallscreen_overlay{
+  position: fixed; 
+  top: 0;
+  left:0vw;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.5s ease;
+  z-index: 5;
+  background: whitesmoke;
+  overflow-y: hidden;
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.overlay__close {
+
+  cursor: pointer;
+  /* position: absolute;
+  top: 3.2rem;
+  right: 6.7rem; */
+}
+
+.app__navbar-smallscreen_links{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  justify-content: space-around;
+  height:70vh;
+  
+}
+
+.app__navbar-smallscreen_links li {
+  cursor: pointer;
+  display: flex;
+  /* border: solid red; */
+  justify-content: center;
+  
+}
+
+@media screen and (min-width: 1150px) 
+{
+
+  /* .test{
+    display: none;
+    } */
+
+  /* .ham{
+    display: flex;
+    } */
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1149px) {
+
+  /* .test{
+    display: flex;
+    flex-direction: row;
+    border: solid red;
+    } */
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+  .navbar_links 
+  {
+      display: none;
+  }
+  /* .ham{
+    display: flex;
+    } */
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+} 
+@media screen and (min-width: 452px) and (max-width: 570px) {
+
+
+}
+
+@media screen and (max-width: 451px) {
+
+
+
+}
+@media screen and (max-width: 390px) {
+
+
+}
+
+/*================================================================*/
+
+.Homepage{
+
+  /* border: solid red; */
+  margin-top: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
