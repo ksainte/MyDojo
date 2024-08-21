@@ -29,7 +29,7 @@ export default function Navbar() {
 
         <div className="navbar_right justify-end items-end lg:col-span-9 xl-col  flex">
 
-          <ul className="xl:text-xl navbar_links grid grid-cols-7 lg:gap-4 xl:gap-7 justify-end items-end my-auto">
+          <ul className="xl:text-xl grid grid-cols-7 lg:gap-4 xl:gap-7 justify-end items-end my-auto max-lg:hidden">
 
             <li>
               <Link href="/" className="links">
@@ -70,9 +70,6 @@ export default function Navbar() {
 
           </ul>
         </div>
-
-
-
 
 
         <div className="lg:hidden my-auto ">
