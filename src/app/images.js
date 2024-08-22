@@ -4,6 +4,9 @@ import homepage1 from './components/images/ig1.png'
 import homepage2 from './components/images/ig4.png'
 import homepage3 from './components/images/insta.png'
 import follow from './components/images/Follow.webp'
+import blog1 from './components/images/blog2.jpg'
+import blog2 from './components/images/blog3.jpg'
+import blog3 from './components/images/blog4.jpg'
 
 export default 
 {
@@ -12,5 +15,8 @@ export default
     homepage1,
     homepage2,
     homepage3,
-    follow
+    follow,
+    blog1,
+    blog2,
+    blog3
 }

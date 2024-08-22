@@ -1,4 +1,6 @@
 import Homepage from "./Homepage";
+import Blog from "./Blog_Page";
+
 
 
 export default function Home() {
@@ -6,6 +8,7 @@ export default function Home() {
     <main style={{width:'100vw'}}>
      <div className='App_body'>
         <Homepage/>
+        <Blog/>
       </div>
     </main>
   );

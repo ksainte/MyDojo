@@ -14,7 +14,7 @@ import {
 
 function Homepage() {
   return (
-    <div className="Homepage grid grid-cols-12">
+    <div className="background grid grid-cols-12">
 
       <div className="col-span-3 flex flex-col items-center justify-center">
         <div className="text-vertical">
@@ -38,7 +38,11 @@ function Homepage() {
       </div>
 
       <div className="col-span-9">
-        <Gallery images={[images.homepage2, images.homepage1, images.homepage3]} />
+      <Gallery 
+          images={[images.homepage2, images.homepage1, images.homepage3]} 
+          imageHeight="42rem" 
+          imageMinWidth="65rem" 
+        />
       </div>
 
       <div className=" bg-black col-span-12 h-12 flex items-center justify-center text-white font-mono	font-family: ui-monospace">

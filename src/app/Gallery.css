@@ -36,10 +36,11 @@
 /*if I put heigh 100% it will allow the image to take its full height within the
 upper container that has a max height of 35 rem which means it will scroll
 up and down to see the image, we dont want that*/
+
 .app__gallery-images img {
 
-    height: 42rem;
-    min-width: 65rem;
+    /* height: 42rem;
+    min-width: 65rem; */
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
