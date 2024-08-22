@@ -1,25 +1,4 @@
-.navbar{
-    
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0); 
-    z-index: 1000; 
-    /* border: solid red; */
-
-}
-
-.navbar_comp{
-    width: 100vw;
-  
-    /* align-items: center; */
-    /* justify-content : space-between; */
-    top: 0px;
-    /* padding-top:10px;
-    padding-bottom: 10px; */
-
-}
-
 .links {
-    /* border: solid green; */
     color : black;
     font-family: monospace;
     text-decoration: none;
@@ -28,11 +7,7 @@
     line-height: 1.75rem;
     letter-spacing: -0.055em;
     opacity: 1;
-
     --tw-space-x-reverse: 0;
-
-
-
   }
 
   ul {
@@ -47,19 +22,11 @@
   li a:hover{
     background-color: none;
     text-decoration: underline;
-    text-decoration: solid underline black 4px;
+    text-decoration: solid underline black 3px;
     font-weight: 450;
   
   }
   
-/*================================================================*/
-/*THIS IS RESPONSIVE PART
-
-/*par default hamburger avec menu existe pas*/
-
-.smallscreen {
-  display: none;
-}
 
 .app__navbar-smallscreen_overlay{
   position: fixed; 
@@ -76,14 +43,6 @@
   justify-content: center;
 
 
-}
-
-.overlay__close {
-
-  cursor: pointer;
-  /* position: absolute;
-  top: 3.2rem;
-  right: 6.7rem; */
 }
 
 .app__navbar-smallscreen_links{
@@ -104,75 +63,12 @@
   
 }
 
-@media screen and (min-width: 1150px) 
-{
+/*THIS IS THE HOMEPAGE*/
 
-  /* .test{
-    display: none;
-    } */
+.Homepage {
 
-  /* .ham{
-    display: flex;
-    } */
-
+  background-color:#ebddc96c;
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1149px) {
-
-  /* .test{
-    display: flex;
-    flex-direction: row;
-    border: solid red;
-    } */
-}
-
-
-
-@media screen and (max-width: 1024px) {
-
-
-  .navbar_links 
-  {
-      display: none;
-  }
-  /* .ham{
-    display: flex;
-    } */
-
-
-
-}
-
-
-@media screen and (max-width: 768px) {
-
-
-
-} 
-@media screen and (min-width: 452px) and (max-width: 570px) {
-
-
-}
-
-@media screen and (max-width: 451px) {
-
-
-
-}
-@media screen and (max-width: 390px) {
-
-
-}
-
-/*================================================================*/
-
-.Homepage{
-
-  /* border: solid red; */
-  margin-top: 100px;
-
-}
-
 
 
 

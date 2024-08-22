@@ -1,0 +1,149 @@
+
+.Gallery_components_design {
+
+    scroll-margin-top: 10rem;
+}
+
+.Gallery_Down_design {
+    /* margin-top: 4rem; */
+    display: flex;
+    flex-direction: row;
+    /* width: 70vw; */
+}
+
+.app__gallery {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: max-content;
+
+  
+}
+
+
+.app__gallery-images {
+
+    /* margin-right: -10rem; */
+    margin-left:2rem;
+    scroll-snap-align: start;
+    /* min-width: 65rem;
+    height: 42rem; */
+}
+
+
+/*if I put heigh 100% it will allow the image to take its full height within the
+upper container that has a max height of 35 rem which means it will scroll
+up and down to see the image, we dont want that*/
+.app__gallery-images img {
+
+    height: 42rem;
+    min-width: 65rem;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+    /* margin-left: 10rem; */
+
+}
+.app__gallery::-webkit-scrollbar {
+    display: none;
+}
+.app__gallery-images:hover img {
+    opacity: 1;
+}
+
+.app__gallery-images:hover .gallery__image-icon {
+    opacity: 1;
+}
+
+.app__gallery_arrows {
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_arrow-icon {
+    color: var(--color-golden);
+    font-size: 3rem;
+    cursor: pointer;
+    background: var(--color-black);
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.gallery_arrow-icon:hover {
+    opacity: .55;
+}
+
+@media screen and (max-width: 768px) {
+    .app__gallery-images:hover img {
+        opacity:1;
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    .Gallery_components_design {
+
+        scroll-margin-top: 10rem;
+        overflow-x: none;
+
+    }
+    
+    .Gallery_Down_design {
+
+        width: 100%;
+        margin-top: 5rem;
+
+
+    }
+
+.app__gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100vw;
+
+
+}
+
+
+
+.app__gallery-images {
+    min-width: 100vw;
+    height: auto;
+    margin-right:0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin-top: -7rem; */
+    /* margin-bottom: 3rem;    */
+}
+
+.app__gallery-images img {
+    object-fit:contain;
+    padding-left: 11rem;
+    padding-right: 13rem;
+    padding-bottom: 2rem;
+
+}
+
+.app__gallery_arrows {
+    display: none;
+}
+
+.app__gallery-images:hover img {
+    opacity: 1;
+}
+
+
+}
+

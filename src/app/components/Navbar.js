@@ -15,21 +15,21 @@ import images from "../images";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className=" w-screen " id="navbar ">
+    <div className=" w-screen z-1000" id="navbar ">
       
 
-      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28  lg:p-10 px-6 py-2  border">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28  lg:p-10 px-6 py-2">
 
         <div className="col-span-3">
 
           <Link href="/">
-            <Image className=" border md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
+            <Image className=" md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
             </Link>          
           </div>
 
-        <div className="justify-end lg:col-span-9 flex border">
+        <div className="justify-end lg:col-span-9 flex">
 
-          <ul className=" lg:text-base xl:text:lg 2xl:text-xl flex lg:gap-3 xl:gap-7 border my-auto max-lg:hidden space-x-3.5">
+          <ul className=" lg:text-base xl:text:lg 2xl:text-xl flex lg:gap-3 xl:gap-7 my-auto max-lg:hidden space-x-3.5">
 
             <li>
               <Link href="/" className="links">
