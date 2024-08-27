@@ -5,8 +5,11 @@ const Schedule = () => {
   const days = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'SAMEDI', 'DIMANCHE'];
 
   const events = [
-    { day: 'LUNDI', startHour: 16, endHour: 18, time: '16:30-17:30', label:'JUDO', color: 'bg-blue-500' },
-    { day: 'MERCREDI', startHour: 10, endHour: 12, label: 'Event 2', color: 'bg-green-500' },
+    { day: 'LUNDI', startHour: 16, endHour: 18, time: '16:30-17:30', label:'JUDO', color: 'bg-yellow-500' },
+    { day: 'MERCREDI', startHour: 16, endHour: 18, time: '16:30-17:30', label:'JUDO', color: 'bg-yellow-500' },
+    { day: 'VENDREDI', startHour: 16, endHour: 18, time: '16:30-17:30', label:'JUDO', color: 'bg-yellow-500' },
+    { day: 'LUNDI', startHour: 18, endHour: 20, time: '18-19:30', label:'K1 KICKBOXING', color: 'bg-blue-400' },
+    { day: 'MERCREDI', startHour: 18, endHour: 20, time: '18-19:30', label:'K1 KICKBOXING', color: 'bg-blue-400' },
     // Add more events here
   ];
 
@@ -46,8 +49,8 @@ const Schedule = () => {
                     }}
                   >
                     <div className="flex flex-col">
-                    <span className="text-white lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.time}</span>
-                    <span className="text-white lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.label}</span>
+                    <span className="text-black lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.time}</span>
+                    <span className="text-black font-bold lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.label}</span>
                     </div>
                   </div>
                 ))}
