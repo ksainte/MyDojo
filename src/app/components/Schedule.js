@@ -5,8 +5,8 @@ const Schedule = () => {
   const days = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'SAMEDI', 'DIMANCHE'];
 
   const events = [
-    { day: 'Vendredi', startHour: 18, endHour: 20, label: 'Event 1', color: 'bg-blue-500' },
-    { day: 'Vendredi', startHour: 10, endHour: 12, label: 'Event 2', color: 'bg-green-500' },
+    { day: 'LUNDI', startHour: 16, endHour: 18, time: '16:30-17:30', label:'JUDO', color: 'bg-blue-500' },
+    { day: 'MERCREDI', startHour: 10, endHour: 12, label: 'Event 2', color: 'bg-green-500' },
     // Add more events here
   ];
 
@@ -32,19 +32,23 @@ const Schedule = () => {
             <div key={`${hour}-${day}`} className="relative border border-gray-300">
               {/* Display events */}
               {events
-                .filter((event) => event.day === day && event.startHour <= hour && hour < event.endHour)
+                .filter((event) => event.day === day && event.startHour < hour + 2 && event.endHour > hour)
                 .map((event, index) => (
                   <div
                     key={index}
                     className={`absolute ${event.color} opacity-70`}
                     style={{
-                      top: `${(hour - event.startHour) * 100 / (event.endHour - event.startHour)}%`,
-                      height: `${100 / (event.endHour - event.startHour)}%`,
+                      height: `100%`,
                       width: '100%',
-                      left: 0,
+                      display: 'flex',           // Equivalent to `flex`
+                      alignItems: 'center',      // Equivalent to `items-center`
+                      justifyContent: 'center',  // Equivalent to `justify-center`
                     }}
                   >
-                    <span className="text-white text-xs p-1">{event.label}</span>
+                    <div className="flex flex-col">
+                    <span className="text-white lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.time}</span>
+                    <span className="text-white lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">{event.label}</span>
+                    </div>
                   </div>
                 ))}
             </div>
