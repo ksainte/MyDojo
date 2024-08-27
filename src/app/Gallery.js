@@ -3,9 +3,9 @@
 import React from 'react';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import Image from "next/image";
-import './Gallery.css'; // You may still use this for general styles
+import './Gallery.css';
 
-const Gallery = ({ images, imageHeight, imageMinWidth, flexDirection}) => {
+const Gallery = ({ images, imageHeight, imageMinWidth, flexDirection, display, marginRight}) => {
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
@@ -28,6 +28,14 @@ const Gallery = ({ images, imageHeight, imageMinWidth, flexDirection}) => {
     flexDirection: flexDirection,
   };
 
+  const DisplayStyle = {
+    display: display,
+  };
+
+  const MarginStyle = {
+    marginRight:marginRight,
+  };
+
   return (
     <div className="Gallery_components_design">
       <div className="Gallery_Down_design">
@@ -36,15 +44,14 @@ const Gallery = ({ images, imageHeight, imageMinWidth, flexDirection}) => {
             <div
               className="app__gallery-images"
               key={`gallery_image-${index + 1}`}
-            
+              style={MarginStyle}
             >
               <Image src={image}  style={imageStyle} alt="gallery_image"/>
             </div>
           ))}
         </div>
       </div>
-
-      <div className="app__gallery_arrows">
+      <div className="app__gallery_arrows" style={DisplayStyle}>
         <BsArrowLeftShort className="gallery_arrow-icon" onClick={() => scroll('left')} />
         <BsArrowRightShort className="gallery_arrow-icon" onClick={() => scroll('right')} />
       </div>
