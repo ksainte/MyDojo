@@ -71,7 +71,10 @@
 }
 
 .blogsize{
-  font-size: 10rem;
+  font-size: 9rem;
+}
+.text-stroke {
+  -webkit-text-stroke: 2px white;
 }
 
 

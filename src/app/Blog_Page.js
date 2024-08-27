@@ -15,14 +15,14 @@ function Blog() {
             flexDirection="row" 
           />
         <div className="flex gap-8 px-3">
-        <div className="blogsize font-mono text-white">
+        <div className=" blogsize text-white">
           <span className="stroke-black stroke-2">BLOG</span>
         </div>
               <div className="flex flex-col justify-evenly">
-                  <div className="lg:text-base xl:text-lg 2xl:text-2xl font-mono	font-family: ui-monospace">
-                    Shidostudio is a very active club. We regularly participate competitions in
+                  <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">
+                    Shidostudio is a very active club. We regularly participate in competitions in
                   various disciplines and go on seminars in Belgium and abroad. </div>
-                  <div className="  bg-white flex justify-center py-1 text-3xl font-mono	font-family: ui-monospace border-4 border-black">SEE MORE</div>
+                  <div className="  bg-white flex justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">SEE MORE</div>
               </div>
         </div>
         </div>

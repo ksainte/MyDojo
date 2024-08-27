@@ -7,6 +7,10 @@ import follow from './components/images/Follow.webp'
 import blog1 from './components/images/blog2.jpg'
 import blog2 from './components/images/blog3.jpg'
 import blog3 from './components/images/blog4.jpg'
+import d1 from './components/images/exemple3.jpg'
+import d2 from './components/images/exemple4.jpg'
+import d3 from './components/images/exemple6.jpg'
+import d4 from './components/images/yellow.jpg'
 
 export default 
 {
@@ -18,5 +22,9 @@ export default
     follow,
     blog1,
     blog2,
-    blog3
+    blog3,
+    d1,
+    d2,
+    d3,
+    d4
 }
