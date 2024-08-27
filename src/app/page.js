@@ -1,6 +1,7 @@
 import Homepage from "./Homepage";
 import Blog from "./Blog_Page";
 import Disciplines from "./Disciplines_Page";
+import SchedulePage from "./Schedule_Page";
 
 
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Homepage/>
         <Blog/>
         <Disciplines/>
+        <SchedulePage/>
       </div>
     </main>
   );
