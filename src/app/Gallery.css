@@ -22,7 +22,6 @@
   
 }
 
-
 .app__gallery-images {
 
     /* margin-right: -10rem; */
@@ -33,11 +32,6 @@
     /* min-width: 65rem;
     height: 42rem; */
 }
-
-
-/*if I put heigh 100% it will allow the image to take its full height within the
-upper container that has a max height of 35 rem which means it will scroll
-up and down to see the image, we dont want that*/
 
 .app__gallery-images img {
 
@@ -69,7 +63,6 @@ up and down to see the image, we dont want that*/
 
 
     display: flex;
-    justify-content: center;
 }
 
 .gallery_arrow-icon {
@@ -88,6 +81,16 @@ up and down to see the image, we dont want that*/
 @media screen and (max-width: 768px) {
     .app__gallery-images:hover img {
         opacity:1;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .app__gallery_arrows {
+
+        display: none;
+
     }
 
 }
@@ -142,9 +145,9 @@ up and down to see the image, we dont want that*/
 
 }
 
-.app__gallery_arrows {
+/* .app__gallery_arrows {
     display: none;
-}
+} */
 
 .app__gallery-images:hover img {
     opacity: 1;

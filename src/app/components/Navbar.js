@@ -74,47 +74,38 @@ export default function Navbar() {
 
         <div className="lg:hidden my-auto ">
           <GiHamburgerMenu
-            className="ham"
+            className=""
             color="black"
             fontSize={36}
             onClick={() => setToggleMenu(true)}
           />
           {toggleMenu && (
-            <div className="app__navbar-smallscreen_overlay">
-              <IoMdClose 
-                fontSize={38}
-                className="fixed right-6 top-2 my-auto flex"
-                onClick={() => setToggleMenu(false)}
-              />
-              <ul className="app__navbar-smallscreen_links">
+            <div className="app__navbar-smallscreen_overlay flex flex-col">
+              <div className="flex justify-end p-4">
+                <IoMdClose 
+                  fontSize={38}
+                  className=""
+                  onClick={() => setToggleMenu(false)}
+                />
+              </div>
+              <ul className="app__navbar-smallscreen_links flex-grow">
                 <li>
                   <Link
                     href="/"
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                  ACCEUIL
-                </Link>
+                    ACCEUIL
+                  </Link>
                 </li>
-                
-                <li>
-
-                  <Link href="/services/art" 
-                  className="links">
-                BLOG
-                </Link>
-
-                </li>
-
                 <li>
                   <Link
-                    href="/restaurant_page"
+                    href="/services/art"
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                DISCIPLINES
-                </Link>
-
+                    BLOG
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -122,9 +113,8 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                HORAIRES
-                </Link>
-
+                    DISCIPLINES
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -132,9 +122,8 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                COTISATION
-                </Link>
-
+                    HORAIRES
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -142,9 +131,17 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                PROFESSEURS
-                </Link>
-
+                    COTISATION
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/restaurant_page"
+                    className="links"
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    PROFESSEURS
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -152,14 +149,13 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                    {" "}
                     CONTACT
                   </Link>
                 </li>
-                
               </ul>
             </div>
           )}
+
         </div>
       </div>
 

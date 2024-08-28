@@ -10,8 +10,8 @@ function Blog() {
         <div className="Main_Blog col-span-9">
           <Gallery 
             images={[images.blog3, images.blog2, images.blog1]} 
-            imageHeight="40rem" 
-            imageMinWidth="35rem" 
+            heightClass="md:h-[28rem] lg:h-[32rem] xl:h-[36rem] 2xl:h-[40rem]" 
+            minWidthClass="md:min-w-[23rem] lg:min-w-[27rem] xl:min-w-[31rem] 2xl:min-w-[35rem]" 
             flexDirection="row" 
           />
         <div className="flex gap-8 px-3">
