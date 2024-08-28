@@ -45,7 +45,7 @@ function Homepage() {
         />
       </div>
 
-      <div className=" bg-black col-span-12 flex flex-col items-center gap-4 text-white font-mono	font-family: ui-monospace py-10">
+      <div className=" bg-black col-span-12 flex flex-col items-center gap-4 text-white <<font-mono	font-family: ui-monospace>> py-10">
           <div className="flex">
             <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
             SHIDOSTUDIO
