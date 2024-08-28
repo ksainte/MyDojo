@@ -12,6 +12,8 @@ import d2 from './components/images/exemple4.jpg'
 import d3 from './components/images/exemple6.jpg'
 import d4 from './components/images/yellow.jpg'
 import map from './components/images/Maps.png'
+import logo3 from './components/images/Image.jpeg'
+
 
 export default 
 {
@@ -28,5 +30,6 @@ export default
     d2,
     d3,
     d4,
-    map
+    map,
+    logo3
 }

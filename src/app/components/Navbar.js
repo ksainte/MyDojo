@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className=" w-screen z-1000" id="navbar ">
       
 
-      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28  lg:p-10 px-6 py-2">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2">
 
         <div className="col-span-3">
 
