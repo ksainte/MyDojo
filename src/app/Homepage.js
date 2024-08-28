@@ -17,7 +17,7 @@ function Homepage() {
     <div className="background grid grid-cols-12">
 
       <div className="col-span-3 flex flex-col items-center justify-center">
-        <div className="text-vertical">
+        <div >
           F<br />O<br />L<br />L<br />O<br />W<br /><br />U<br />S <br /><br />O<br />N
         </div>
         <div className="list-none mt-4">

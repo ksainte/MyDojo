@@ -5,7 +5,7 @@ import Gallery from "./Gallery";
 
 function Blog() {
   return (
-    <div className="flex justify-center mt-20 background">
+    <div className="flex justify-center mt-10 background">
       <div className="grid grid-cols-12 max-w-screen-2xl">
         <div className="Main_Blog col-span-9">
           <Gallery 
@@ -22,12 +22,12 @@ function Blog() {
                   <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">
                     Shidostudio is a very active club. We regularly participate in competitions in
                   various disciplines and go on seminars in Belgium and abroad. </div>
-                  <div className="  bg-white flex justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">SEE MORE</div>
+                  <div className="  bg-white flex justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">MORE TO COME</div>
               </div>
         </div>
         </div>
-        <div className="Side_blog col-span-3 border bg-slate-50 mt-8">
-          <div className="flex justify-center font-mono	font-family: ui-monospace lg:text-lg xl:text-xl 2xl:text-2xl mt-8">Instagram </div>
+        <div className="Side_blog col-span-3 border bg-purple-700 mt-8 py-8">
+          <div className=" text-white flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
           <Gallery 
             images={[images.homepage2, images.homepage1, images.homepage3]}
             flexDirection="column"

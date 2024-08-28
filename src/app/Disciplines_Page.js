@@ -11,7 +11,7 @@ const DisciplineStyle = {
 
 function Disciplines() {
   return (
-    <div className="flex justify-center mt-20 flex-col">
+    <div className="flex justify-center mt-10 flex-col">
         <div className="bg-black w-full text-white flex items-center flex-col py-10">
             <div className="lg:text-4xl xl:text-6xl 2xl:text-8xl font-mono text-black">
             <span className="stroke-white stroke-2 text-stroke">DISCIPLINES</span>

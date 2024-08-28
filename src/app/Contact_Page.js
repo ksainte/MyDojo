@@ -2,6 +2,16 @@ import React from 'react';
 import Schedule from './components/Schedule';
 import images from "./images";
 import Image from "next/image";
+import Gallery from "./Gallery";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faEtsy
+} from "@fortawesome/free-brands-svg-icons";
 
 const DisciplineStyle = {
     objectFit: 'cover',
@@ -11,7 +21,7 @@ const DisciplineStyle = {
   
 const ContactPage = () => {
     return (
-        <div className="flex-col">
+        <div className="flex-col pb-10">
             <div className="bg-black w-full text-white flex items-center flex-col py-10">
                 <div className="lg:text-4xl xl:text-6xl 2xl:text-8xl font-mono text-black">
                     <span className="stroke-white stroke-2 text-stroke">CONTACT</span>
@@ -42,6 +52,32 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
+            <div className="flex justify-center w-full mt-10 items-center">
+                <div className="flex w-full max-w-screen-2xl items-center gap-4">
+                    <div className="flex-shrink-0 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">
+                        FOLLOW US ON
+                    </div>
+                    <div className="list-none flex gap-3 flex-shrink-0"> {/* Added ml-4 for spacing */}
+                        <li>
+                            <a href="https://www.youtube.com/">
+                                <FontAwesomeIcon icon={faYoutube} className="w-8 h-8" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <FontAwesomeIcon icon={faInstagram} className="w-8 h-8" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/">
+                                <FontAwesomeIcon icon={faTwitter} className="w-8 h-8" />
+                            </a>
+                        </li>
+                    </div>
+                    <div className="flex-grow h-px bg-black "></div> {/* Added ml-4 for spacing */}
+                </div>
+            </div>
+
         </div>
     );
 }
