@@ -13,7 +13,7 @@ const CotisationPage = () => {
             </div>
 
             <div className="flex justify-center w-full mt-10">
-                <div className="flex justify-evenly items-center w-full max-w-screen-2xl border background">
+                <div className="flex justify-evenly items-center w-full max-w-screen-2xl border background p-3">
                     <div className="flex flex-col">
                         <div className="bg-white p-3">
                             <div className="border border-black flex flex-col gap-2 p-16 bg-white items-center">
@@ -21,7 +21,7 @@ const CotisationPage = () => {
                                     <div className="lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                     <div className="underline font-bold lg:text-xl xl:text-2xl 2xl:text-3xl">ADULTE</div>
                                 </div>
-                                <div className="lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-red-500">65€</div>
+                                <div className="lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">65€</div>
                                 <div className="lg:text-lg xl:text-xl 2xl:text-2xl">/mois</div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const CotisationPage = () => {
                                     <div className="lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                     <div className="underline font-bold lg:text-xl xl:text-2xl 2xl:text-3xl">ADULTE</div>
                                 </div>
-                                <div className="lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-red-500">650€</div>
+                                <div className="lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-green-500">650€</div>
                                 <div className="lg:text-lg xl:text-xl 2xl:text-2xl">/an</div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const CotisationPage = () => {
                                     <div className="lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                     <div className="underline font-bold lg:text-xl xl:text-2xl 2xl:text-3xl">ENFANT</div>
                                 </div>
-                                <div className="lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-red-500">75€</div>
+                                <div className="lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-green-500">75€</div>
                                 <div className="lg:text-lg xl:text-xl 2xl:text-2xl">/mois</div>
                             </div>
                         </div>
@@ -75,7 +75,14 @@ const CotisationPage = () => {
                         <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family: ui-monospace">/ an</div>
                         <div className="w-full h-px bg-black "></div> 
                     </div>
-                </div>
+            </div>
+            <div className="flex justify-center w-full mt-10">
+                    <div className="w-full max-w-screen-2xl flex items-center flex-col gap-5 background border p-3">
+                        <div className="lg:text-lg xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">COURS PRIVÉ</div>
+                        <div className="lg:text-3xl xl:text-4xl 2xl:text-5xl font-mono font-family: ui-monospace font-bold text-green-500">50€</div>
+                        <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/heure</div>
+                    </div>
+            </div>
     </div>
     );
 }
