@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const DisciplineStyle = {
-    objectFit: 'cover',
+    objectFit: 'contain',
     width: '100%',  // Equivalent to `w-full`
   height: '35rem', // Equivalent to `h-60` (Tailwind's `h-60` is typically `15rem`)
   };
@@ -31,7 +31,7 @@ const ContactPage = () => {
                 </div>
             </div>
             <div className="flex justify-center w-full mt-10">
-                <div className="flex justify-evenly items-center w-full max-w-screen-2xl gap-10">
+                <div className="flex justify-evenly items-center w-full max-w-screen-xl gap-10">
                     <div className="flex">
                         <div className="bg-white flex flex-col gap-2 p-10 text-black items-start">
                             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">ADRESSE</div>
@@ -48,7 +48,7 @@ const ContactPage = () => {
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@hotmail.be</div>
 
                         </div>
-                        <Image src={images.d1}  style={DisciplineStyle} alt="gallery_image"/>
+                        <Image src={images.map}  style={DisciplineStyle} alt="gallery_image"/>
                     </div>
                 </div>
             </div>

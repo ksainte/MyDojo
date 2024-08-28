@@ -29,7 +29,7 @@ export default function Navbar() {
 
         <div className="justify-end lg:col-span-9 flex">
 
-          <ul className=" lg:text-base xl:text:lg 2xl:text-xl flex lg:gap-3 xl:gap-7 my-auto max-lg:hidden space-x-3.5">
+          <ul className=" lg:text-lg xl:text:xl 2xl:text-2xl flex lg:gap-3 xl:gap-7 my-auto max-lg:hidden space-x-3.5">
 
             <li>
               <Link href="/" className="links">

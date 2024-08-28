@@ -56,7 +56,7 @@ function Homepage() {
             </div>
             <div className="flex">
             <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
-            WE PRACTICE
+            PRACTICE OF
             </div>
             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl italic">
             STRIKING WRESTLING GRAPLING
