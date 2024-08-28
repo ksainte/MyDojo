@@ -45,24 +45,30 @@ function Homepage() {
         />
       </div>
 
-      <div className=" bg-black col-span-12 h-12 flex items-center justify-center text-white font-mono	font-family: ui-monospace">
-            <div className="font-bold lg:text-lg xl:text-xl 2xl:text-2xl mr-3">
+      <div className=" bg-black col-span-12 flex flex-col items-center gap-4 text-white font-mono	font-family: ui-monospace py-10">
+          <div className="flex">
+            <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
             SHIDOSTUDIO
             </div>
-            <div className="lg:text-base xl:text-lg 2xl:text-xl">
+            <div className="lg:text-xl xl:text-2xl 2xl:text-3xl italic">
                 A MARTIAL ARTS AND FIGHTING SPORTS CLUB
             </div>
-            <div className="font-bold lg:text-lg xl:text-xl 2xl:text-2xl ml-10 mr-3">
-            WE DO
             </div>
-            <div className="lg:text-base xl:text-lg 2xl:text-xl">
+            <div className="flex">
+            <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+            WE PRACTICE
+            </div>
+            <div className="lg:text-xl xl:text-2xl 2xl:text-3xl italic">
             STRIKING WRESTLING GRAPLING
             </div>
-            <div className="font-bold lg:text-lg xl:text-xl 2xl:text-2xl ml-10 mr-3">
+            </div>
+            <div className="flex">
+            <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
             ALL LEVELS
             </div>
-            <div className="lg:text-base xl:text-lg 2xl:text-xl">
+            <div className="lg:text-xl xl:text-2xl 2xl:text-3xl italic">
                 FOR ADULTS AND FOR KIDS
+            </div>
             </div>
       </div>
     </div>
