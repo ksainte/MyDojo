@@ -1,6 +1,5 @@
 /** @type {import('postcss-load-config').Config} */
 const config = {
-  theme: {
     extend: {
       screens: {
         'small': '480px',   // Custom small breakpoint (e.g., mobile devices)
@@ -14,7 +13,6 @@ const config = {
         'fluid': 'clamp(1rem, 2vw + 1rem, 2.5rem)', // Custom fluid size
       },
     },
-  },
   plugins: {
     tailwindcss: {},
   },
