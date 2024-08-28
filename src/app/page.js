@@ -4,6 +4,7 @@ import Disciplines from "./Disciplines_Page";
 import SchedulePage from "./Schedule_Page";
 import CotisationPage from "./Cotisation_Page";
 import ProfesseursPage from "./Professeurs_Page";
+import ContactPage from "./Contact_Page";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
         <SchedulePage/>
         <CotisationPage/>
         <ProfesseursPage/>
+        <ContactPage/>
       </div>
     </main>
   );
