@@ -37,7 +37,7 @@ const Gallery = ({ images, heightClass, minWidthClass, flexDirection, display, m
           ))}
         </div>
       </div>
-      <div className="app__gallery_arrows justify-center" style={{ DisplayStyle }}>
+      <div style={{ DisplayStyle }} className="app__gallery_arrows justify-center" >
         <BsArrowLeftShort className="gallery_arrow-icon" onClick={() => scroll('left')} />
         <BsArrowRightShort className="gallery_arrow-icon" onClick={() => scroll('right')} />
       </div>

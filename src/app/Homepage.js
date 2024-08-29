@@ -41,12 +41,12 @@ function Homepage() {
           images={[images.homepage2, images.homepage1, images.homepage3]} 
           heightClass="xs:h-[21rem] sm:h-[24rem] md:h-[28rem] lg:h-[34rem] xl:h-[38rem] 2xl:h-[42rem]" 
           minWidthClass="xs:min-w-[26rem] sm:min-w-[34rem] md:min-w-[42rem] lg:min-w-[49rem] xl:min-w-[57rem] 2xl:min-w-[65rem]"
-          display="flex"
+          display="none"
         />
       </div>
 
 
-      <div className=" bg-black col-span-12 flex flex-col items-center gap-4 text-white <<font-mono	font-family: ui-monospace>> py-10">
+      <div className="max-xs:hidden bg-black col-span-12 flex flex-col items-center gap-4 text-white <<font-mono	font-family: ui-monospace>> py-10">
           <div className="flex">
             <div className="font-bold lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
             SHIDOSTUDIO

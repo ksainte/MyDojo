@@ -6,12 +6,12 @@ import Gallery from "./Gallery";
 function Blog() {
   return (
     <div className="flex justify-center mt-10 background">
-      <div className="grid grid-cols-12 max-w-screen-2xl">
-        <div className="Main_Blog col-span-9">
+      <div className="grid grid-cols-12 max-w-screen-2xl ">
+        <div className="Main_Blog col-span-9 max-xl:col-span-12">
           <Gallery 
             images={[images.blog3, images.blog2, images.blog1]} 
-            heightClass="md:h-[28rem] lg:h-[32rem] xl:h-[36rem] 2xl:h-[40rem]" 
-            minWidthClass="md:min-w-[23rem] lg:min-w-[27rem] xl:min-w-[31rem] 2xl:min-w-[35rem]" 
+            heightClass="xs:h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] xl:h-[36rem] 2xl:h-[40rem]" 
+            minWidthClass="xs:min-w-[18rem] sm:min-w-[22rem] md:min-w-[26rem] lg:min-w-[30rem] xl:min-w-[34rem] 2xl:min-w-[38rem]" 
             flexDirection="row" 
           />
         <div className="flex gap-8 px-3">
@@ -26,8 +26,9 @@ function Blog() {
               </div>
         </div>
         </div>
-        <div className="Side_blog col-span-3 border bg-purple-700 mt-8 py-8">
-          <div className=" text-white flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
+        <div className="Side_blog col-span-3 border background mt-8 py-8 max-xl:hidden">
+          <div className=" text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
+          <div className="flex-grow h-px bg-black mx-10"></div> {/* Added ml-4 for spacing */}
           <Gallery 
             images={[images.homepage2, images.homepage1, images.homepage3]}
             flexDirection="column"
