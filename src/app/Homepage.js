@@ -48,17 +48,17 @@ function Homepage() {
       </div>
 
 {/* Welcome Section for Mobile */}
-<div className="xs:hidden">
-  <div className="Header flex items-center relative">
-    <div className="background-layer"></div>
-    <div className="flex flex-col  items-center text-center relative -mt-10 border border-red-500">
-    <Image className="max-w-[90%] " src={images.logo} alt="ShidoStudio" />
-    <div className="text-black text-2xl font-bold font-mono">
-    A MARTIAL ARTS AND FIGHTING SPORTS CLUB
+      <div className="xs:hidden">
+        <div className="flex items-center relative min-h-screen w-screen">
+          <div className="background-layer"></div>
+          <div className="flex flex-col  items-center text-center relative -mt-10 p-1">
+          <Image className="max-w-[90%] " src={images.logo} alt="ShidoStudio" />
+          <div className="text-black text-2xl font-bold font-mono">
+            A MARTIAL ARTS AND FIGHTING SPORTS CLUB
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
 
       <div className="max-xs:hidden bg-black col-span-12 flex flex-col items-center gap-4 text-white font-mono py-10">

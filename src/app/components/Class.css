@@ -58,9 +58,7 @@
 .app__navbar-smallscreen_links li {
   cursor: pointer;
   display: flex;
-  /* border: solid red; */
   justify-content: center;
-  
 }
 
 
@@ -85,7 +83,7 @@
   /* display:flex;
   align-items:center;
   justify-content: flex-center; */
-  height:70vh;
+  /* height:90vh; */
   width: 100vw;
 }
 
