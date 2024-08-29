@@ -52,8 +52,8 @@ function Homepage() {
   <div className="Header flex items-center relative">
     <div className="background-layer"></div>
     <div className="flex flex-col  items-center text-center relative -mt-10 border border-red-500">
-    <Image className="max-w-[100%] " src={images.logo} alt="ShidoStudio" />
-    <div className="text-black text-xl font-bold font-mono">
+    <Image className="max-w-[90%] " src={images.logo} alt="ShidoStudio" />
+    <div className="text-black text-2xl font-bold font-mono">
     A MARTIAL ARTS AND FIGHTING SPORTS CLUB
       </div>
     </div>
