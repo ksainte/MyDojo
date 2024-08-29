@@ -20,12 +20,12 @@ export default function Navbar() {
 
       <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2">
 
-        <div className="col-span-3">
+        <div className="col-span-3 max-xs:hidden">
 
           <Link href="/">
             <Image className=" md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
             </Link>          
-          </div>
+        </div>
 
         <div className="justify-end lg:col-span-9 flex">
 

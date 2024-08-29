@@ -63,11 +63,14 @@
   
 }
 
-/*THIS IS THE HOMEPAGE*/
 
-.background {
+@media screen and (min-width: 480px) {
 
-  background-color:#ebddc96c;
+  .background {
+
+    background-color:#ebddc96c;
+  }
+
 }
 
 .blogsize{
@@ -76,6 +79,26 @@
 .text-stroke {
   -webkit-text-stroke: 2px white;
 }
+
+.Header{
+
+  /* display:flex;
+  align-items:center;
+  justify-content: flex-center; */
+  height:70vh;
+  width: 100vw;
+}
+
+/* Background layer */
+.background-layer {
+  position: absolute;
+  inset: 0;
+  background-image: url('./images/ig4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
 
 
 
