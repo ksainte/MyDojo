@@ -22,7 +22,7 @@ const ProfesseursPage = () => {
             </div>
 
             <div className="flex justify-center w-full mt-10">
-                <div className="flex justify-evenly items-center w-full max-w-screen-2xl gap-10">
+                <div className="flex justify-evenly items-center w-full xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl gap-10">
                     <div className="flex flex-col">
                         <Image src={images.d1}  style={DisciplineStyle} alt="gallery_image"/>
                         <div className="bg-purple-700 flex flex-col gap-2 p-10 text-white items-center">

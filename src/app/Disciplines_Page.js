@@ -3,11 +3,6 @@ import './components/Class.css';
 import images from "./images";
 import Image from "next/image";
 
-const DisciplineStyle = {
-    objectFit: 'cover',
-    width: '100%',  // Equivalent to `w-full`
-  height: '35rem', // Equivalent to `h-60` (Tailwind's `h-60` is typically `15rem`)
-  };
 
 function Disciplines() {
   return (
@@ -20,12 +15,12 @@ function Disciplines() {
                     Everyone is welcome in our club, regardless of your level, physical condition, sex or age.
             </div>
         </div>
-        <div className="grid grid-cols-2 gap-12 max-w-screen-2xl mx-auto py-10">
+        <div className="grid grid-cols-2 max-xs:gap-5 gap-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
  
-                 <Image src={images.d1}  style={DisciplineStyle} alt="gallery_image"/>
-                 <Image src={images.d2}  style={DisciplineStyle} alt="gallery_image"/>
-                 <Image src={images.d3}  style={DisciplineStyle} alt="gallery_image"/>
-                 <Image src={images.d4}  style={DisciplineStyle} alt="gallery_image"/>
+                 <Image src={images.d1} className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
+                 <Image src={images.d2}  className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
+                 <Image src={images.d3}  className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
+                 <Image src={images.d4}  className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
 
         </div>
     </div>
