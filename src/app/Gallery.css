@@ -72,7 +72,16 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .app__gallery-images {
+
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
 
     .app__gallery_arrows {
 
@@ -81,5 +90,4 @@
     }
 
 }
-
 
