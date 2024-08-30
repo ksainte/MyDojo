@@ -5,8 +5,8 @@ import Gallery from "./Gallery";
 
 function Blog() {
   return (
-    <div className="flex justify-center max-xs:mt-10 mt-20">
-      <div className="grid grid-cols-12 max-w-screen-2xl max-xs:gap-6">
+    <div className="flex justify-center max-xs:mt-10 mt-20 ">
+      <div className="grid grid-cols-12 max-w-screen-2xl max-xs:gap-6 xs:h-screen">
         <div className="col-span-9 max-xl:col-span-12 max-xs:flex max-xs:flex-col-reverse max-xs:gap-6">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
@@ -26,20 +26,19 @@ function Blog() {
                 </div>
           </div>
         </div>
-        <div className="mx-7 hidden max-xs:flex col-span-12 background bg-white justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family:ui-monospace border-4 border-black text-center">
+        <div className="mx-10 hidden max-xs:flex col-span-12 background bg-white justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family:ui-monospace border-4 border-black text-center">
           AND MORE TO COME
         </div>
 
-        <div className="col-span-3 background  py-8 max-xl:hidden">
-          <div className=" text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
+        <div className="col-span-3 background  max-xl:hidden overflow-y-hidden">
+          <div className="mt-1 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
           <div className="flex-grow h-px bg-black mx-10"></div>
           <Gallery 
-            images={[images.homepage2, images.homepage1, images.homepage3]}
+            images={[images.homepage2, images.homepage1, images.homepage3, images.homepage3]}
             flexDirection="column"
             display="none"
             marginRight="2rem"
             marginTop="2rem"
-
           />
         </div>
       </div>
