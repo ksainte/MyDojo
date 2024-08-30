@@ -6,7 +6,7 @@ import Gallery from "./Gallery";
 function Blog() {
   return (
     <div className="flex justify-center mt-10">
-      <div className="grid grid-cols-12  xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
+      <div className="grid grid-cols-12   max-xxs:max-w-screen-xxxs max-xs:max-w-screen-xxs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
         <div className="col-span-9 max-xl:col-span-12 max-md:flex max-md:flex-col-reverse max-md:gap-6 ">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
@@ -19,7 +19,7 @@ function Blog() {
                 <span className="xxxs:text-7xl xxs:text-8xl xs:text-8xl sm:text-8xl md:text-9xl max-md:flex max-md:justify-center stroke-black stroke-2">BLOG</span>
               </div>
                 <div className="flex flex-col justify-evenly ">
-                    <div className="xxs:text-md xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace max-md:text-center">
+                    <div className="py-1 xxs:text-md xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace max-md:text-center">
                       Shidostudio is a very active club. We regularly participate in competitions in
                     various disciplines and go on seminars in Belgium and abroad. </div>
                     <div className="max-md:hidden background bg-white flex justify-center py-1 max-lg:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">AND MORE TO COME</div>
