@@ -5,7 +5,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import Image from "next/image";
 import './Gallery.css';
 
-const Gallery = ({ images, heightClass, minWidthClass, flexDirection, display, marginRight, marginTop, marginBottom}) => {
+const Gallery = ({ images, heightClass, minWidthClass, flexDirection, display, marginRight, marginTop, marginBottom, marginLeft}) => {
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
@@ -30,7 +30,7 @@ const Gallery = ({ images, heightClass, minWidthClass, flexDirection, display, m
             <div
               className={`app__gallery-images ${heightClass} ${minWidthClass}`}
               key={`gallery_image-${index + 1}`}
-              style={{ marginRight, marginTop, marginBottom}}
+              style={{ marginRight, marginTop, marginBottom, marginLeft}}
             >
               <Image src={image} alt="gallery_image" className={`object-cover ${heightClass} ${minWidthClass}`} />
             </div>

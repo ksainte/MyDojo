@@ -45,6 +45,9 @@ function Homepage() {
           minWidthClass="xs:min-w-[26rem] sm:min-w-[34rem] md:min-w-[42rem] lg:min-w-[49rem] xl:min-w-[57rem] 2xl:min-w-[65rem]"
           display="none"
           marginTop="2rem"
+          marginLeft="2rem"
+          marginRight="0rem"
+
 
         />
       </div>

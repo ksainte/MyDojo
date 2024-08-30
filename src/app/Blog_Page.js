@@ -6,7 +6,7 @@ import Gallery from "./Gallery";
 function Blog() {
   return (
     <div className="flex justify-center mt-10">
-      <div className="grid grid-cols-12   max-xs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
+      <div className="grid grid-cols-12  xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
         <div className="col-span-9 max-xl:col-span-12 max-md:flex max-md:flex-col-reverse max-md:gap-6 ">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
@@ -36,7 +36,7 @@ function Blog() {
             images={[images.homepage2, images.homepage1, images.homepage3, images.homepage3]}
             flexDirection="column"
             display="none"
-            marginRight="2rem"
+            marginLeft="2rem"
             marginTop="2rem"
           />
         </div>
