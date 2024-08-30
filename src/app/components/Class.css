@@ -71,8 +71,11 @@
 
 }
 
+@media screen and (min-width: 1024px) {
+  
 .blogsize{
   font-size: 9rem;
+}
 }
 .text-stroke {
   -webkit-text-stroke: 2px white;

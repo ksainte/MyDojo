@@ -38,7 +38,7 @@ function Homepage() {
         </div>
 
       </div>
-      <div className="max-xs:hidden col-span-9 max-xl:col-span-12 max-2xl:col-span-11">
+      <div className="max-xs:hidden col-span-9 max-xl:col-span-12 max-2xl:col-span-11 ">
         <Gallery 
           images={[images.homepage2, images.homepage1, images.homepage3]} 
           heightClass="xs:h-[21rem] sm:h-[24rem] md:h-[28rem] lg:h-[34rem] xl:h-[38rem] 2xl:h-[42rem]" 
