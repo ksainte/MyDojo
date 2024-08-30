@@ -51,7 +51,7 @@ function Homepage() {
       <div className="xs:hidden">
         <div className="flex items-center relative min-h-screen w-screen">
           <div className="background-layer"></div>
-          <div className="flex flex-col  items-center text-center relative -mt-10 p-1">
+          <div className="flex flex-col  items-center justify-evenly h-screen text-center relative  p-1">
           <Image className="max-w-[90%] " src={images.logo} alt="ShidoStudio" />
           <div className="text-black text-2xl font-bold font-mono">
             A MARTIAL ARTS AND FIGHTING SPORTS CLUB

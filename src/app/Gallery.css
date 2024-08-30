@@ -27,7 +27,6 @@
     /* margin-right: -10rem; */
     margin-left:2rem;
     /* margin-right:2rem; */
-    margin-top: 2rem;
     scroll-snap-align: start;
     /* min-width: 65rem;
     height: 42rem; */
@@ -35,18 +34,9 @@
 
 .app__gallery-images img {
 
-    /* height: 42rem;
-    min-width: 65rem; */
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
-    /* padding-left: 5rem;
-    padding-right: 5rem; */
-    /* margin-left: 10rem; */
-    /* margin-top: 2rem; */
-    /* margin-right:2rem; */
-
-
 }
 .app__gallery::-webkit-scrollbar {
     display: none;
