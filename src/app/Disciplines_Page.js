@@ -11,11 +11,11 @@ function Disciplines() {
             <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-mono text-black ">
             <span className="stroke-white stroke-2 text-stroke">DISCIPLINES</span>
             </div>
-            <div className="xs:text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace italic max-lg:px-4">
+            <div className="max-lg:text-center xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl xs:text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace italic max-lg:px-4">
                     Everyone is welcome in our club, regardless of your level, physical condition, sex or age.
             </div>
         </div>
-        <div className="grid grid-cols-2 max-xs:gap-5 gap-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
+        <div className="grid grid-cols-2 max-xs:gap-5 max-lg:gap-8 gap-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
  
                  <Image src={images.d1} className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
                  <Image src={images.d2}  className="max-xs:px-10 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-cover w-full" alt="gallery_image"/>
