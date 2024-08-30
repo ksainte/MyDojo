@@ -9,15 +9,17 @@ const DisciplineStyle = {
   height: '35rem', // Equivalent to `h-60` (Tailwind's `h-60` is typically `15rem`)
   };
 
+  //Shidostudio's professors.
+  //PROFESSEURS
 const ProfesseursPage = () => {
     return (
         <div className="flex-col pb-10">
-            <div className="bg-black w-full text-white flex items-center flex-col py-10">
-                <div className="lg:text-4xl xl:text-6xl 2xl:text-8xl font-mono text-black">
-                    <span className="stroke-white stroke-2 text-stroke">PROFESSEURS</span>
+            <div className="bg-black w-full text-white flex items-center flex-col py-10 gap-4 max-md:py-6">
+                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-mono text-black ">
+                <span className="stroke-white stroke-2 text-stroke">PROFESSEURS</span>
                 </div>
-                <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family: ui-monospace italic">
-                    Shidostudio's professors.
+                <div className="xs:text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace italic max-lg:px-4">
+                Our professors.
                 </div>
             </div>
 
