@@ -5,14 +5,14 @@ import Gallery from "./Gallery";
 
 function Blog() {
   return (
-    <div className="flex justify-center mt-20">
+    <div className="flex justify-center max-xs:mt-10 mt-20">
       <div className="grid grid-cols-12 max-w-screen-2xl max-xs:gap-6">
         <div className="col-span-9 max-xl:col-span-12 max-xs:flex max-xs:flex-col-reverse max-xs:gap-6">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
               heightClass="xxxs:h-[12rem] xxs:h-[16rem] xs:h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] xl:h-[36rem] 2xl:h-[40rem]" 
               minWidthClass="xxxs:min-w-[16rem] xs:min-w-[18rem] sm:min-w-[22rem] md:min-w-[26rem] lg:min-w-[30rem] xl:min-w-[34rem] 2xl:min-w-[38rem]" 
-              flexDirection="row" 
+              flexDirection="row"
             />
           <div className=" max-xs:gap-6 flex xs:gap-8 px-3 max-xs:flex-col-reverse">
               <div className=" blogsize text-white background ">
@@ -38,6 +38,8 @@ function Blog() {
             flexDirection="column"
             display="none"
             marginRight="2rem"
+            marginTop="2rem"
+
           />
         </div>
       </div>

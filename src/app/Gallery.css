@@ -30,6 +30,8 @@
     scroll-snap-align: start;
     /* min-width: 65rem;
     height: 42rem; */
+    /* margin-top: 2rem; */
+
 }
 
 .app__gallery-images img {
@@ -37,6 +39,7 @@
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
+
 }
 .app__gallery::-webkit-scrollbar {
     display: none;
