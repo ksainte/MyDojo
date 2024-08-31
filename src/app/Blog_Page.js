@@ -6,13 +6,14 @@ import Gallery from "./Gallery";
 function Blog() {
   return (
     <div className="flex justify-center mt-10">
-      <div className="grid grid-cols-12   max-xxs:max-w-screen-xxxs max-xs:max-w-screen-xxs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
+      <div className="grid grid-cols-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
         <div className="col-span-9 max-xl:col-span-12 max-md:flex max-md:flex-col-reverse max-md:gap-6 ">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
               heightClass="xxxs:h-[12rem] xxs:h-[16rem] xs:h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[32rem] xl:h-[36rem] 2xl:h-[40rem]" 
-              minWidthClass="xxxs:min-w-[16rem] xs:min-w-[18rem] sm:min-w-[22rem] md:min-w-[26rem] lg:min-w-[30rem] xl:min-w-[34rem] 2xl:min-w-[38rem]" 
+              minWidthClass="xxxs:min-w-[16rem] xs:min-w-[18rem] sm:min-w-[22rem] md:min-w-[26rem] lg:min-w-[30rem] xl:min-w-[34rem] 2xl:min-w-[38rem]"
               flexDirection="row"
+              marginLeft="2rem"
             />
           <div className=" max-md:gap-6 flex md:gap-8 px-3 max-md:flex-col-reverse ">
               <div className=" blogsize text-white">
@@ -37,6 +38,7 @@ function Blog() {
             flexDirection="column"
             display="none"
             marginLeft="2rem"
+            marginRight="2rem"
             marginTop="2rem"
           />
         </div>

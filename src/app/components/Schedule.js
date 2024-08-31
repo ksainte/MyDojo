@@ -10,12 +10,12 @@ const Schedule = () => {
     { day: 'VENDREDI', startHour: 16, endHour: 17.5, time: '16:30-17:30', label: 'JUDO', color: 'bg-yellow-500' },
     { day: 'LUNDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'K1 KICKBOXING', color: 'bg-blue-400' },
     { day: 'MERCREDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'K1 KICKBOXING', color: 'bg-blue-400' },
-    { day: 'MARDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-red-500' },
-    { day: 'JEUDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-red-500' },
-    { day: 'SAMEDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-red-500' },
+    { day: 'MARDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-purple-400' },
+    { day: 'JEUDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-purple-400' },
+    { day: 'SAMEDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'KARATE SHIDOKAN', color: 'bg-purple-400' },
     { day: 'MERCREDI', startHour: 14, endHour: 15, time: '14:00-15:00', label: 'SHIDOKAN KIDS', color: 'bg-green-400' },
     { day: 'SAMEDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'SHIDOKAN KIDS', color: 'bg-green-400' },
-    { day: 'VENDREDI', startHour: 18, endHour: 19.5, time: '18-19:30', label: 'MIXED MARTIAL ARTS', color: 'bg-orange-300' },
+    { day: 'VENDREDI', startHour: 18, endHour: 19.5, time: '18:00-19:30', label: 'MIXED MARTIAL ARTS', color: 'bg-red-400' },
     // Add more events here
     
   ];
