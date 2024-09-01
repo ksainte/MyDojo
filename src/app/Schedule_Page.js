@@ -19,7 +19,7 @@ const SchedulePage = () => {
             <div className="sm:hidden flex flex-col items-center border border-green-500">
                 <div className="mt-10 mb-10 xxxs:max-w-screen-xxxs xxs:max-w-screen-xxs xs:max-w-screen-xs">
                     <div className="border background p-3 flex flex-col gap-4">
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col text-center">
                             <div className="bg-purple-500 p-3">
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                     <div className="flex flex-col gap-2 items-center font-mono">
@@ -31,7 +31,7 @@ const SchedulePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col text-center">
                             <div className="bg-green-400 p-3">
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                     <div className="flex flex-col gap-2 items-center font-mono">
@@ -42,7 +42,7 @@ const SchedulePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col text-center">
                             <div className="bg-yellow-500 p-3">
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
@@ -54,7 +54,7 @@ const SchedulePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col text-center">
                             <div className="bg-blue-500 p-3">
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
@@ -65,7 +65,7 @@ const SchedulePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col text-center">
                             <div className="bg-red-400 p-3">
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
