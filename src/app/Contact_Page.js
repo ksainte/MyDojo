@@ -50,11 +50,11 @@ const ContactPage = () => {
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@hotmail.be</div>
 
                         </div>
-                        <Image src={images.map} className=" px-5" style={DisciplineStyle} alt="gallery_image"/>
+                        <Image src={images.map} className=" px-5 max-xxs:-mt-28 max-xxs:-mb-28 max-xs:-mt-20 max-xs:-mb-20" style={DisciplineStyle} alt="gallery_image"/>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center w-full xs:mt-10 items-center p-1">
+            <div className="flex justify-center w-full lg:mt-10 items-center p-1">
                 <div className="flex w-full max-w-screen-2xl items-center gap-4">
                     <div className="flex-shrink-0 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">
                         FOLLOW US ON

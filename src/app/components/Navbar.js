@@ -88,7 +88,7 @@ export default function Navbar() {
                   onClick={() => setToggleMenu(false)}
                 />
               </div>
-              <ul className="app__navbar-smallscreen_links flex-grow">
+              <ul className="app__navbar-smallscreen_links flex-grow max-lg:text-lg">
                 <li>
                   <Link
                     href="/"

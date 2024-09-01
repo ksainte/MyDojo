@@ -13,7 +13,7 @@ const CotisationPage = () => {
             </div>
 
             <div className="flex justify-center w-full mt-10" >
-                <div className="flex max-md:flex-col max-md:gap-4 justify-evenly items-center w-full  border background p-3 xxxs:max-w-screen-xxxs xxs:max-w-screen-xxs xs:max-w-screen-xxs md:max-w-screen-lg lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+                <div className="flex max-md:flex-col max-md:gap-6 justify-evenly items-center w-full  border background p-3 xxxs:max-w-screen-xxxs xxs:max-w-screen-xxs xs:max-w-screen-xxs md:max-w-screen-lg lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
                     <div className="flex flex-col">
                         <div className="bg-white p-3">
                             <div className="border border-black flex flex-col gap-2 p-16 max-lg:p-8 bg-white items-center">

@@ -15,7 +15,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: white; */
   }
   
 
@@ -38,7 +37,6 @@
   z-index: 5;
   background: whitesmoke;
   overflow-y: hidden;
-  /* border: solid green; */
   display: flex;
   justify-content: center;
 
@@ -49,10 +47,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* margin-top: 120px; */
-  justify-content: space-evenly;
-  /* height:70vh; */
-  
+  justify-content: space-evenly;  
 }
 
 .app__navbar-smallscreen_links li {
@@ -66,14 +61,6 @@
   background-color:#ebddc96c;
 }
 
-/* @media screen and (min-width: 320px) {
-
-  .background {
-
-    background-color:#ebddc96c;
-  }
-
-} */
 
 @media screen and (min-width: 1024px) {
   
@@ -87,14 +74,9 @@
 
 .Header{
 
-  /* display:flex;
-  align-items:center;
-  justify-content: flex-center; */
-  /* height:90vh; */
   width: 100vw;
 }
 
-/* Background layer */
 .background-layer {
   position: absolute;
   inset: 0;
