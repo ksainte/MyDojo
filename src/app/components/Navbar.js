@@ -127,7 +127,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    href="/cotisations"
+                    href="/#cotisations"
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
