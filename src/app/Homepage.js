@@ -66,28 +66,28 @@ function Homepage() {
       </div>
 
 
-      <div className=" bg-black col-span-12 flex flex-col items-center gap-4  text-white font-mono py-10 max-xs:py-6">
-          <div className="flex max-xs:hidden">
-              <div className="font-bold xs:text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+      <div className=" bg-black col-span-12 flex flex-col items-center gap-4  text-white font-mono py-10 max-sm:py-6">
+          <div className="flex max-xs:hidden max-sm:flex-col items-center">
+              <div className="font-bold xxxs:text-lg xxs:text-xl xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               SHIDOSTUDIO
               </div>
-              <div className="xs:text-md sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
                   A MARTIAL ARTS AND FIGHTING SPORTS CLUB
               </div>
             </div>
-            <div className="flex max-xs:flex-col items-center">
-              <div className=" font-bold xxs:text-xl xs:text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+            <div className="flex max-sm:flex-col items-center">
+              <div className=" font-bold xxxs:text-lg xxs:text-xl xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               PRACTICE OF
               </div>
-              <div className="xxs:text-lg xs:text-md sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
               STRIKING WRESTLING GRAPLING
               </div>
             </div>
-            <div className="flex max-xs:flex-col items-center">
-              <div className="font-bold xxs:text-xl xs:text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+            <div className="flex max-sm:flex-col items-center">
+              <div className="font-bold xxxs:text-lg xxs:text-xl xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               ALL LEVELS
               </div>
-              <div className="xxs:text-lg xs:text-md sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
                   FOR ADULTS AND FOR KIDS
               </div>
             </div>

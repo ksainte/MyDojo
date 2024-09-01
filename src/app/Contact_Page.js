@@ -32,13 +32,13 @@ const ContactPage = () => {
                 Adresse: Rue de l’Hôtel des Monnaies, 1060 Saint-Gilles, Bruxelles. 
                 </div>
             </div>
-            <div className="flex justify-center w-full mt-10">
-                <div className="flex justify-evenly items-center w-full max-w-screen-xl gap-10">
-                    <div className="flex">
-                        <div className="bg-white flex flex-col gap-2 p-10 text-black items-start">
+            <div className="flex justify-center w-full mt-10 px-2">
+                <div className="flex justify-evenly items-center w-full  xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl gap-10">
+                    <div className="flex max-sm:flex-col max-sm:text-center">
+                        <div className="bg-white flex flex-col gap-2 sm:p-10 text-black items-start max-sm:items-center">
                             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">ADRESSE</div>
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">Rue de l’Hôtel des Monnaies, 1060 Saint-Gilles, Bruxelles.</div>
-                            <div className="w-full h-px bg-black m-3"></div> 
+                            <div className="w-full h-px bg-black m-3 "></div> 
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">Accès:</div>
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">Métro 2 - 6</div>
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">Hôtel des Monnaies</div>
@@ -50,11 +50,11 @@ const ContactPage = () => {
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@hotmail.be</div>
 
                         </div>
-                        <Image src={images.map}  style={DisciplineStyle} alt="gallery_image"/>
+                        <Image src={images.map} className=" px-5" style={DisciplineStyle} alt="gallery_image"/>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center w-full mt-10 items-center">
+            <div className="flex justify-center w-full xs:mt-10 items-center p-1">
                 <div className="flex w-full max-w-screen-2xl items-center gap-4">
                     <div className="flex-shrink-0 lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">
                         FOLLOW US ON
