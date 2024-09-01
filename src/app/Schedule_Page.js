@@ -24,9 +24,12 @@ const SchedulePage = () => {
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                     <div className="flex flex-col gap-2 items-center font-mono">
                                         <div className="underline font-bold xxxs:text-xl xxs:text-xl xs:text-2xl">KARATE SHIDOKAN</div>
-                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">MARDI 18:00-19:30</div>
-                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">JEUDI 18:00-19:30</div>
-                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">SAMEDI 18:00-19:30</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">MARDI:</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">JEUDI:</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">SAMEDI:</div>
+                                        <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
                                     </div>
                                 </div>
                             </div>
@@ -36,8 +39,10 @@ const SchedulePage = () => {
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                     <div className="flex flex-col gap-2 items-center font-mono">
                                             <div className="underline font-bold xxxs:text-xl xxs:text-xl xs:text-2xl">SHIDOKAN KIDS</div>
-                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI 14:00-15:00</div>
-                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">SAMEDI 17:00-18:00</div>
+                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI:</div>
+                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">14:00-15:00</div>
+                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">SAMEDI:</div>
+                                            <div className="xxxs:text-md xxs:text-lg xs:text-xl">17:00-18:00</div>
                                     </div>
                                 </div>
                             </div>
@@ -47,9 +52,12 @@ const SchedulePage = () => {
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
                                                 <div className="underline font-bold xxxs:text-xl xxs:text-xl xs:text-2xl">JUDO</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">LUNDI 16:30-17:30</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI 16:30-17:30</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">VENDREDI 16:30-17:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">LUNDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">16:30-17:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">16:30-17:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">VENDREDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">16:30-17:30</div>
                                         </div>
                                 </div>
                             </div>
@@ -59,8 +67,10 @@ const SchedulePage = () => {
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
                                                 <div className="underline font-bold xxxs:text-xl xxs:text-xl xs:text-2xl">K1 KICKBOXING</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">LUNDI 18:00-19:30</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI 18:00-19:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">LUNDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">MERCREDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
                                         </div>
                                 </div>
                             </div>
@@ -70,7 +80,8 @@ const SchedulePage = () => {
                                 <div className="border border-black flex flex-col gap-2 p-8 bg-white items-center">
                                         <div className="flex flex-col gap-2 items-center font-mono">
                                                 <div className="underline font-bold xxxs:text-xl xxs:text-xl xs:text-2xl">MIXED MARTIAL ARTS</div>
-                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">VENDREDI 18:00-19:30</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">VENDREDI:</div>
+                                                <div className="xxxs:text-md xxs:text-lg xs:text-xl">18:00-19:30</div>
                                         </div>
                                 </div>
                             </div>
