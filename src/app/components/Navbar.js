@@ -33,7 +33,7 @@ export default function Navbar() {
 
             <li>
               <Link href="/" className="links">
-                ACCEUIL
+                ACCUEIL
               </Link>
             </li>
             <li>
@@ -53,7 +53,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/restaurant_page" className="links">
-                COTISATION
+                COTISATIONS
               </Link>
             </li>
             <li>
@@ -95,7 +95,7 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                    ACCEUIL
+                    ACCUEIL
                   </Link>
                 </li>
                 <li>
@@ -131,7 +131,7 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                    COTISATION
+                    COTISATIONS
                   </Link>
                 </li>
                 <li>
