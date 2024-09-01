@@ -44,10 +44,12 @@
 }
 
 .app__navbar-smallscreen_links{
+  margin-top: -30px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
+  /* border:solid red */
 }
 
 .app__navbar-smallscreen_links li {
