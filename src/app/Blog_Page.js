@@ -5,7 +5,7 @@ import Gallery from "./Gallery";
 
 function Blog() {
   return (
-    <div className="flex justify-center mt-10">
+    <div className="flex justify-center mt-10" id="blog">
       <div className="grid grid-cols-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  ">
         <div className="col-span-9 max-xl:col-span-12 max-md:flex max-md:flex-col-reverse max-md:gap-6 ">
             <Gallery 

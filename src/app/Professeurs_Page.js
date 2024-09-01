@@ -13,7 +13,7 @@ const DisciplineStyle = {
   //PROFESSEURS
 const ProfesseursPage = () => {
     return (
-        <div className="flex-col pb-10">
+        <div className="flex-col pb-10" id="profs">
             <div className="bg-black w-full text-white flex items-center flex-col py-10 gap-4 max-md:py-6">
                 <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-mono text-black ">
                 <span className="stroke-white stroke-2 text-stroke">PROFESSEURS</span>
