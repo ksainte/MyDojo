@@ -31,17 +31,17 @@ function Blog() {
           AND MORE TO COME
         </div>
         <div className="flex justify-center items-center col-span-12 max-lg:mt-5 overflow-x-hidden">
-          <div className="xxxs:max-w-screen-xxxs xxs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
+          <div className="xxxs:max-w-screen-xs xxs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
           <div className=" flex-grow h-px bg-black "></div>
             <div className="my-5 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
             <div className=" flex-grow h-px bg-black "></div>
-            <div className="max-xs:mx-14 max-xxs:mx-14">
+            <div className="max-xs:mx-14 max-xxs:ml-20">
             <Gallery 
               images={[images.homepage2, images.homepage1, images.blog3, images.blog2, images.blog1, images.homepage3, images.homepage3]}
               flexDirection="row"
               display="none"
-              heightClass=" xxxs:h-[13rem] xs:h-[16rem] sm:h-[18rem] md:h-[22rem] lg:h-[25rem] xl:h-[30rem] 2xl:h-[30rem]" 
-              minWidthClass=" xxxs:min-w-[18rem] xs:min-w-[23rem] sm:min-w-[25rem] md:min-w-[30rem] lg:min-w-[35rem] xl:min-w-[35rem] 2xl:min-w-[35rem]"
+              heightClass=" xxxs:h-[11rem] xxs:h-[13rem] xs:h-[16rem] sm:h-[18rem] md:h-[22rem] lg:h-[25rem] xl:h-[30rem] 2xl:h-[30rem]" 
+              minWidthClass=" xxxs:min-w-[16rem] xxs:min-w-[18rem] xs:min-w-[23rem] sm:min-w-[25rem] md:min-w-[30rem] lg:min-w-[35rem] xl:min-w-[35rem] 2xl:min-w-[35rem]"
               marginLeft="2rem"
               marginTop="2rem"
             />
