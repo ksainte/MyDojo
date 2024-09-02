@@ -5,8 +5,8 @@ import Gallery from "./Gallery";
 
 function Blog() {
   return (
-    <div className="flex justify-center mt-10" id="blog">
-      <div className="grid grid-cols-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6 xl:max-h-screen">
+    <div className="flex justify-center -mt-20 xl:h-[100vh] items-center" id="blog">
+      <div className="grid grid-cols-12 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl max-md:gap-6  xl:h-3/4">
         <div className="col-span-9 max-xl:col-span-12 max-md:flex max-md:flex-col-reverse max-md:gap-6 ">
             <Gallery 
               images={[images.blog3, images.blog2, images.blog1]} 
@@ -30,7 +30,7 @@ function Blog() {
         <div className="mx-10 hidden max-md:flex col-span-12 background bg-white justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family:ui-monospace border-4 border-black text-center">
           AND MORE TO COME
         </div>
-        <div className="col-span-3 background  max-xl:hidden overflow-y-auto max-h-[57rem]">
+        <div className="col-span-3 background  max-xl:hidden overflow-y-auto">
           <div className="mt-1 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl xl:text-2xl 2xl:text-3xl italic">Instagram </div>
           <div className="flex-grow h-px bg-black mx-10"></div>
           <Gallery 
@@ -48,3 +48,5 @@ function Blog() {
 }
 
 export default Blog;
+
+//xl:h-[90vh]
