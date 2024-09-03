@@ -8,6 +8,21 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "SHIDOSTUDIO - A Martial Arts And Fighting Sports Club",
   description: "Shidostudio is a new club specializing in martial arts. Come train with our dedicated professors in the heart of Brussels.",
+  openGraph: {
+    title: "SHIDOSTUDIO - A Martial Arts And Fighting Sports Club",
+    description: "Shidostudio is a new club specializing in martial arts. Come train with our dedicated professors in the heart of Brussels.",
+    url: "https://dojowebsite.vercel.app/",
+    siteName: "Shidostudio",
+    images: [
+      {
+        url: "https://nextjs.org/og.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
