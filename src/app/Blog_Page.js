@@ -2,6 +2,16 @@ import React from 'react';
 import './components/Class.css';
 import images from "./images";
 import Gallery from "./Gallery";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faEtsy
+} from "@fortawesome/free-brands-svg-icons";
 
 function Blog() {
   return (
@@ -32,8 +42,13 @@ function Blog() {
         </div>
         <div className="hidden  max-xs:flex 2xl:flex justify-center items-center col-span-12  overflow-x-hidden">
           <div className="xxxs:max-w-screen-xs xxs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
-          {/* <div className=" flex-grow h-px bg-black "></div> */}
-            <div className=" mb-5 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl max-xs:text-xl xl:text-2xl 2xl:text-3xl italic underline underline-offset-8">Instagram </div>
+            <div className="max-xs:mb-5 flex justify-center list-none items-center gap-2 underline underline-offset-8">
+            <li>
+              <FontAwesomeIcon icon={faInstagram} className="max-xs:w-6 max-xs:h-6 w-8 h-8" />
+              <a href="https://www.instagram.com/"></a>
+            </li>
+              <div className="  text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl max-xs:text-xl xl:text-2xl 2xl:text-3xl italic underline underline-offset-8">Instagram </div>
+          </div>
             {/* <div className=" flex-grow h-px bg-purple-500 "></div> */}
             <div className="max-xs:mx-14 max-xxs:ml-20 2xl:mt-10">
             <Gallery 
