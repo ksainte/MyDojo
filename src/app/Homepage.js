@@ -18,8 +18,8 @@ function Homepage() {
   return (
     <div className=" background grid grid-cols-12">
 
-      <div className="max-xl:hidden max-2xl:col-span-1 col-span-3 flex flex-col items-center justify-center">
-        <div >
+      <div className="max-lg:hidden max-2xl:col-span-1 col-span-3 flex flex-col items-center justify-center">
+        <div className="xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
           F<br />O<br />L<br />L<br />O<br />W<br /><br />U<br />S <br /><br />O<br />N
         </div>
         <div className="list-none mt-4">
@@ -38,7 +38,7 @@ function Homepage() {
         </div>
 
       </div>
-      <div className="max-xs:hidden col-span-9 max-xl:col-span-12 max-2xl:col-span-11 ">
+      <div className="max-lg:hidden col-span-9 max-2xl:col-span-11 ">
         <Gallery 
           images={[images.homepage2, images.homepage1, images.homepage3]} 
           heightClass="xs:h-[21rem] sm:h-[24rem] md:h-[28rem] lg:h-[34rem] xl:h-[38rem] 2xl:h-[42rem]" 
@@ -53,12 +53,12 @@ function Homepage() {
       </div>
 
 {/* Welcome Section for Mobile */}
-      <div className="xs:hidden">
+      <div className="lg:hidden">
         <div className="flex items-center relative min-h-screen w-screen">
           <div className="background-layer"></div>
           <div className="flex flex-col  items-center justify-evenly h-screen text-center relative  p-1">
-          <Image className="max-w-[90%] " src={images.logo} alt="ShidoStudio" />
-          <div className="text-black text-2xl font-bold font-mono">
+          <Image className="max-w-[90%] xs:max-w-[70%]" src={images.logo} alt="ShidoStudio" />
+          <div className="text-black text-2xl xs:text-3xl  font-bold font-mono">
             A MARTIAL ARTS AND FIGHTING SPORTS CLUB
             </div>
           </div>
@@ -67,7 +67,7 @@ function Homepage() {
 
 
       <div className=" bg-black col-span-12 flex flex-col items-center gap-4  text-white font-mono py-10 max-sm:py-6">
-          <div className="flex max-xs:hidden max-sm:flex-col items-center">
+          <div className="flex max-lg:hidden max-sm:flex-col items-center">
               <div className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               SHIDOSTUDIO
               </div>
