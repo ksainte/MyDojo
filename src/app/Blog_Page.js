@@ -23,17 +23,17 @@ function Blog() {
                     <div className="py-1 xxs:text-md xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace max-md:text-center">
                       Shidostudio is a very active club. We regularly participate in competitions in
                     various disciplines and go on seminars in Belgium and abroad. </div>
-                    <div className="max-md:hidden background bg-white flex justify-center py-1 max-lg:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">AND MORE TO COME</div>
+                    <div className="max-md:hidden background bg-white flex justify-center py-1 max-lg:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace border-4 border-black">AND MORE TO COME!</div>
                 </div>
           </div>
         </div>
         <div className="mx-10 hidden max-md:flex col-span-12 background bg-white justify-center py-1 lg:text-lg xl:text-xl 2xl:text-2xl font-mono font-family:ui-monospace border-4 border-black text-center">
-          AND MORE TO COME
+          AND MORE TO COME!
         </div>
         <div className="hidden  max-xs:flex 2xl:flex justify-center items-center col-span-12  overflow-x-hidden">
           <div className="xxxs:max-w-screen-xs xxs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
           {/* <div className=" flex-grow h-px bg-black "></div> */}
-            <div className=" mb-5 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl max-xs:text-xl xl:text-2xl 2xl:text-3xl italic underline">Instagram </div>
+            <div className=" mb-5 text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl max-xs:text-xl xl:text-2xl 2xl:text-3xl italic underline underline-offset-8">Instagram </div>
             {/* <div className=" flex-grow h-px bg-purple-500 "></div> */}
             <div className="max-xs:mx-14 max-xxs:ml-20 2xl:mt-10">
             <Gallery 
