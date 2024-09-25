@@ -13,6 +13,8 @@ import d3 from './components/images/exemple6.jpg'
 import d4 from './components/images/yellow.jpg'
 import map from './components/images/Maps.png'
 import logo3 from './components/images/Image.jpeg'
+import logo4 from './components/images/typoshidostudio.png'
+
 
 
 export default 
@@ -31,5 +33,6 @@ export default
     d3,
     d4,
     map,
-    logo3
+    logo3,
+    logo4
 }

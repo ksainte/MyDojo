@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="col-span-3 max-xxs:hidden">
 
           <Link href="/">
-            <Image className=" md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />
+            <Image className="max-xs:w-52 xs:w-56 sm:w-64 md:w-72 lg:w-80  my-auto -mx-4 w-60"src={images.logo4} alt="ShidoStudio" />
             </Link>          
         </div>
 
