@@ -15,10 +15,10 @@ import images from "../images";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className=" w-screen z-1000" id="navbar ">
+    <div className=" w-screen" id="navbar ">
       
 
-      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2 fixed top-0 w-screen bg-white">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2 fixed top-0 w-screen bg-white z-40">
 
         <div className="col-span-3 max-xxs:hidden">
 

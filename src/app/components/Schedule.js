@@ -36,7 +36,7 @@ const Schedule = () => {
   };
 
   return (
-    <div className="grid grid-cols-7 gap-0 py-10">
+    <div className="grid grid-cols-7 gap-0 py-10 ">
       {/* Header row with days */}
       <div className="col-span-1 py-6"></div>
       {days.map((day) => (

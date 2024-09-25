@@ -54,7 +54,7 @@ function Homepage() {
 
 {/* Welcome Section for Mobile */}
       <div className="lg:hidden">
-        <div className="flex items-center relative min-h-screen w-screen">
+        <div className="flex items-center relative min-h-screen w-screen ">
           <div className="background-layer"></div>
           <div className="flex flex-col  items-center justify-evenly h-screen text-center relative  p-1">
           <Image className="max-w-[90%] xs:max-w-[70%]" src={images.logo} alt="ShidoStudio" />
