@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "Shidostudio",
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: "https://www.shidostudio.be",
         width: 800,
         height: 600,
       },
