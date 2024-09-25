@@ -18,9 +18,9 @@ export default function Navbar() {
     <div className=" w-screen z-1000" id="navbar ">
       
 
-      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2 fixed top-0 w-screen bg-white">
 
-        <div className="col-span-3 max-xs:hidden">
+        <div className="col-span-3 max-xxs:hidden">
 
           <Link href="/">
             <Image className=" md:w-80  my-auto -mx-4 w-56"src={images.logo2} alt="ShidoStudio" />

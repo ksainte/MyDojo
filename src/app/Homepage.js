@@ -16,7 +16,7 @@ import {
 
 function Homepage() {
   return (
-    <div className=" background grid grid-cols-12">
+    <div className=" background grid grid-cols-12 xxxs:mt-[50px] xxs:mt-[60px] xs:mt-[60px] md:mt-[80px] lg:mt-[140px] xl:mt-[150px] 2xl:mt-[160px]">
 
       <div className="max-lg:hidden max-2xl:col-span-1 col-span-3 flex flex-col items-center justify-center">
         <div className="xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
