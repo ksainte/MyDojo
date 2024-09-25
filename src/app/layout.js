@@ -11,7 +11,6 @@ export const metadata = {
   openGraph: {
     title: "SHIDOSTUDIO - A Martial Arts And Fighting Sports Club",
     description: "Shidostudio is a new club specializing in martial arts. Come train with our dedicated professors in the heart of Brussels.",
-    url: "https://dojowebsite.vercel.app/",
     siteName: "Shidostudio",
     images: [
       {
