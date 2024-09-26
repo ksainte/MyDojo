@@ -80,7 +80,7 @@ function Homepage() {
               WE PRACTICE
               </div>
               <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
-              STRIKING WRESTLING GRAPLING
+              MULTIPLE MARTIAL ARTS
               </div>
             </div>
             <div className="flex max-sm:flex-col items-center">

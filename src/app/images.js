@@ -14,6 +14,16 @@ import d4 from './components/images/yellow.jpg'
 import map from './components/images/Maps.png'
 import logo3 from './components/images/Image.jpeg'
 import logo4 from './components/images/typoshidostudio.png'
+import NOGI from './components/images/NOGI.jpg'
+import Mubarak from './components/images/Mubarak.jpg'
+import Saber from './components/images/Saber.jpg'
+import Tiago from './components/images/Tiago.jpg'
+import Arthur from './components/images/Arthur.jpg'
+import Yuli from './components/images/Yuli.jpeg'
+
+
+
+
 
 
 
@@ -34,5 +44,11 @@ export default
     d4,
     map,
     logo3,
-    logo4
+    logo4,
+    NOGI,
+    Mubarak,
+    Saber,
+    Tiago,
+    Arthur,
+    Yuli
 }

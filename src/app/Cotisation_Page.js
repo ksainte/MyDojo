@@ -21,13 +21,13 @@ const CotisationPage = () => {
                                     <div className="xxxs:text-md xxs:text-lg lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                     <div className="underline font-bold xxxs:text-xl xxs:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono">ADULTE</div>
                                 </div>
-                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500 ">65€</div>
+                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500 ">75€</div>
                                 <div className="xxxs:text-lg xxs:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/mois</div>
                             </div>
                         </div>
                         <div className="bg-black flex flex-col gap-2 p-10 text-white items-start">
                             <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- à partir de 16 ans</div>
-                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- une discipline</div>
+                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- multi-discipline</div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
@@ -38,13 +38,13 @@ const CotisationPage = () => {
                                 <div className="xxxs:text-md xxs:text-lg lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                 <div className="underline font-bold xxxs:text-xl xxs:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono">ADULTE</div>
                                 </div>
-                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">650€</div>
+                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">800€</div>
                                 <div className="xxxs:text-lg xxs:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/an</div>
                             </div>
                         </div>
                         <div className="bg-black flex flex-col gap-2 p-10 text-white items-start">
                             <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- à partir de 16 ans</div>
-                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- une discipline</div>
+                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- multi-discipline</div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
@@ -55,19 +55,19 @@ const CotisationPage = () => {
                                 <div className="xxxs:text-md xxs:text-lg lg:text-lg xl:text-xl 2xl:text-2xl">tarif</div>
                                 <div className="underline font-bold xxxs:text-xl xxs:text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono">ENFANT</div>
                                 </div>
-                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">75€</div>
+                                <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">50€</div>
                                 <div className="xxxs:text-lg xxs:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/mois</div>
                             </div>
                         </div>
                         <div className="bg-black flex flex-col gap-2 p-10 text-white items-start">
-                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- de 5 à 15 an</div>
-                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- karaté shidokan</div>
+                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">- de 3 à 15 an</div>
+                            <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace"></div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center w-full mt-10">
+            {/* <div className="flex justify-center w-full mt-10">
                     <div className="w-full max-w-screen-2xl flex items-center flex-col gap-5">
                         <div className="w-full h-px bg-black "></div> 
                         <div className="xxxs:text-md xxs:text-lg lg:text-xl xl:text-xl 2xl:text-2xl font-mono font-family: ui-monospace">+ 50€ de frais d’assurance</div>
@@ -75,11 +75,11 @@ const CotisationPage = () => {
                         <div className="xxxs:text-lg xxs:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/ an</div>
                         <div className="w-full h-px bg-black "></div> 
                     </div>
-            </div>
+            </div> */}
             <div className="flex justify-center w-full mt-10">
                     <div className="w-full max-w-screen-2xl flex items-center flex-col gap-5 background border p-3">
                         <div className="xxxs:text-xl xxs:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-mono font-family: ui-monospace underline">COURS PRIVÉ</div>
-                        <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">50€</div>
+                        <div className="xxxs:text-2xl xxs:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-green-500">60€</div>
                         <div className="xxxs:text-lg xxs:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace">/heure</div>
                     </div>
             </div>
