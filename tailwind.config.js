@@ -11,7 +11,6 @@ module.exports = {
         'xs': '480px',
         'xxs': '320px',
         'xxxs': '240px',
-        '3xl':'1920px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
