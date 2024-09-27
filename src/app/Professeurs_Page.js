@@ -65,8 +65,8 @@ const ProfesseursPage = () => {
                 <div className="flex max-md:flex-col justify-evenly items-center w-full xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl gap-4 xl:gap-10">
                     <div className="flex flex-col max-md:w-3/4 w-1/3   xs:h-[50rem] 2xl:h-[55rem]">
                         <Image src={images.Said}  className="max-xs:h-[25rem] h-full" style={DisciplineStyle} alt="gallery_image"/>
-                        <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
-                            <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SAID CHAABI</div>
+                        <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center ">
+                            <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">SAID CHAABI</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur grappling</div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace ">
                             He learned Jiu-Jitsu in Brazil as there were no classes in Belgium yet at the time. He is a Black belt as long as we can remember.
@@ -78,7 +78,7 @@ const ProfesseursPage = () => {
                         <Image src={images.Mubarak} className="max-xs:h-[25rem] h-full" style={DisciplineStyle} alt="gallery_image"/>
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">MOUBARAK BOULAICH</div>
-                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur judo </div>
+                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur judo </div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             Long time teacher, he now represents Marocco at the international stage. Don't try to catch him he is too agile.
                             </div>
@@ -89,7 +89,7 @@ const ProfesseursPage = () => {
                         <Image src={images.Saber}  className="max-xs:h-[25rem] h-full" style={DisciplineStyle} alt="gallery_image"/>   
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SABER EL MOUDNI</div>
-                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur judo</div>
+                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace  text-center">professeur judo</div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             Competitor, teacher, referee, he is so involved that he even works at the Judo Federation. 
                             </div>
