@@ -67,7 +67,7 @@ const ProfesseursPage = () => {
                         <Image src={images.Said}  className="max-xs:h-[25rem] h-full" style={DisciplineStyle} alt="gallery_image"/>
                         <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SAID CHAABI</div>
-                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur grappling</div>
+                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur grappling</div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace ">
                             He learned Jiu-Jitsu in Brazil as there were no classes in Belgium yet at the time. He is a Black belt as long as we can remember.
                             </div>
