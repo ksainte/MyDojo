@@ -66,7 +66,7 @@ const Schedule = () => {
       {hours.map((hour) => (
         <React.Fragment key={hour}>
           {/* Time label on the left side */}
-          <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 py-3 bg-gray-100">
+          <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 py-4 bg-gray-100">
             {`${hour}:00`}
           </div>
           {/* Time slots for each day */}
