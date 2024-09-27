@@ -25,8 +25,8 @@ const ProfesseursPage = () => {
     
             <div className="flex justify-center w-full mt-10 px-2">
                 <div className="flex max-md:flex-col justify-evenly items-center w-full xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl gap-4 xl:gap-10 ">
-                    <div className="flex flex-col max-md:w-3/4 w-1/3  xxxs:h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
-                        <Image src={images.Yuli3}  className="h-full " style={DisciplineStyle} alt="gallery_image"/>
+                    <div className="flex flex-col max-md:w-3/4 w-1/3  xxxs:max-h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
+                        <Image src={images.Yuli3}  className="h-full" style={DisciplineStyle} alt="gallery_image"/>
                         <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-md:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">YULI NAGATA</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur karate, K1, MMA</div>
@@ -36,7 +36,7 @@ const ProfesseursPage = () => {
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
-                    <div className="flex flex-col max-md:w-3/4 w-1/3 xxxs:h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
+                    <div className="flex flex-col max-md:w-3/4 w-1/3 xxxs:max-h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
                         <Image src={images.Arthur} className="h-full" style={DisciplineStyle} alt="gallery_image"/>
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">ARTHUR BUYSSENS</div>
@@ -47,7 +47,7 @@ const ProfesseursPage = () => {
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
-                    <div className="flex flex-col max-md:w-3/4 w-1/3 xxxs:h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
+                    <div className="flex flex-col max-md:w-3/4 w-1/3 xxxs:max-h-[45rem] xs:h-[50rem] md:h-[50rem] xl:h-[50rem] 2xl:h-[55rem]">
                         <Image src={images.Tiago}  className="h-full" style={DisciplineStyle} alt="gallery_image"/>   
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">TIAGO OLIVEIRA</div>
