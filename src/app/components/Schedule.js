@@ -66,7 +66,7 @@ const Schedule = () => {
       {hours.map((hour) => (
         <React.Fragment key={hour}>
           {/* Time label on the left side */}
-          <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 py-5 bg-gray-100">
+          <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 py-3 bg-gray-100">
             {`${hour}:00`}
           </div>
           {/* Time slots for each day */}
@@ -82,8 +82,8 @@ const Schedule = () => {
                     style={getEventStyle(event, hour)}
                   >
                     <div className="flex flex-col text-center">
-                      <span className="text-black xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl font-mono">{event.time}</span>
-                      <span className="text-black font-bold xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-xl 2xl:text-2xl font-mono">{event.label}</span>
+                      <span className="text-black xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.time}</span>
+                      <span className="text-black font-bold xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.label}</span>
                     </div>
                   </div>
                 ))}
