@@ -30,7 +30,7 @@ const ProfesseursPage = () => {
                         <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-md:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">YULI NAGATA</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur karate, K1, MMA</div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-left">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             3rd Dan Shidokan Karate, 2019 World Champion, fights in Karate-K1-MMA, passionate by Martial Arts, he teaches for 8 years and now struggles with learning Jiu-Jitsu.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
@@ -41,7 +41,7 @@ const ProfesseursPage = () => {
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">ARTHUR BUYSSENS</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur karate, K1, MMA </div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-left">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             2nd Dan Shidokan Karate, competes in multiple tournaments all over the world, he now brings his expertise in diverse classes at Shidostudio.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
@@ -52,7 +52,7 @@ const ProfesseursPage = () => {
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">TIAGO OLIVEIRA</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur karate, K1, MMA</div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-left">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             2nd Dan Shidokan Karate, started young with Kung-Fu and masters now different disciplines, still competing, though he's heavyweight, he shows patience with beginners.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
@@ -68,7 +68,7 @@ const ProfesseursPage = () => {
                         <div className=" bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SAID CHAABI</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur grappling</div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-center">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace ">
                             He learned Jiu-Jitsu in Brazil as there were no classes in Belgium yet at the time. He is a Black belt as long as we can remember.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
@@ -79,7 +79,7 @@ const ProfesseursPage = () => {
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">MOUBARAK BOULAICH</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur judo </div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-center">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             Long time teacher, he now represents Marocco at the international stage. Don't try to catch him he is too agile.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
@@ -90,7 +90,7 @@ const ProfesseursPage = () => {
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SABER EL MOUDNI</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur judo</div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-lg font-mono	font-family: ui-monospace max-xs:text-center">
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             Competitor, teacher, referee, he is so involved that he even works at the Judo Federation. 
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
