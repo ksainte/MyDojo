@@ -34,8 +34,8 @@ const ContactPage = () => {
             </div>
             <div className="flex justify-center w-full mt-10 px-2">
                 <div className="flex justify-evenly items-center w-full  xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl gap-10">
-                    <div className="flex max-sm:flex-col max-sm:text-center">
-                        <div className="bg-white flex flex-col gap-2 sm:p-10 text-black items-start max-sm:items-center">
+                    <div className="flex max-lg:flex-col max-sm:text-center">
+                        <div className="bg-white flex flex-col gap-2 sm:p-10 text-black items-start max-lg:items-center">
                             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">ADRESSE</div>
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">Rue de l’Hôtel des Monnaies 27, 1060 Saint-Gilles, Bruxelles.</div>
                             <div className="w-full h-px bg-black m-3 "></div> 
@@ -50,7 +50,7 @@ const ContactPage = () => {
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@hotmail.be</div>
 
                         </div>
-                        <Image src={images.map} className=" px-5 max-xxs:-mt-28 max-xxs:-mb-28 max-xs:-mt-20 max-xs:-mb-20" style={DisciplineStyle} alt="gallery_image"/>
+                        <Image src={images.map} className=" px-5 sm:p-10 lg:p-8 xl:p-4 max-xxs:-mt-28 max-xxs:-mb-28 max-xs:-mt-20 max-xs:-mb-20" style={DisciplineStyle} alt="gallery_image"/>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const ContactPage = () => {
                             </a>
                         </li>
                     </div>
-                    <div className="flex-grow h-px bg-black "></div> {/* Added ml-4 for spacing */}
+                    <div className="flex-grow h-px bg-black "></div>
                 </div>
             </div>
 
