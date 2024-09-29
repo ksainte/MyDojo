@@ -16,28 +16,27 @@ const Schedule = () => {
   ];
 
   const getEventStyle = (event, hour) => {
-    const startOffset = (event.startHour - hour) * 100; // Each hour is 100% of the grid row
     const duration = (event.endHour - event.startHour) * 100; // Duration based on hours
-
     return {
-      top: `${startOffset}%`,
+      top: 0,
       height: `${duration}%`,
       width: '100%',
       left: 0,
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+      zIndex: 100, // Ensure it appears above the slot borders
     };
   };
 
   return (
-    <div className="grid grid-cols-8 gap-0 max-xs:py-5 py-10">
+    <div className="grid grid-cols-8 gap-0 max-xs:py-5 py-10 ">
       {/* Header row with days */}
       <div className="col-span-1 max-xs:py-4 py-6"></div>
       {days.map((day) => (
         <div
           key={day}
-          className="max-xs:text-[0.50rem] lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300"
+          className="max-xs:text-[0.50rem] lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300 "
         >
           {day}
         </div>
@@ -55,16 +54,20 @@ const Schedule = () => {
             <div key={`${hour}-${day}`} className="relative border border-gray-300">
               {/* Display events */}
               {events
-                .filter((event) => event.day === day && event.startHour < hour + 1 && event.endHour > hour)
+                .filter((event) => event.day === day && event.startHour === hour)
                 .map((event, index) => (
                   <div
                     key={index}
                     className={`absolute ${event.color} opacity-70`}
-                    style={getEventStyle(event, hour)}
+                    style={getEventStyle(event)}
                   >
                     <div className="flex flex-col text-center">
-                      <span className="text-black max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.time}</span>
-                      <span className="text-black font-bold max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.label}</span>
+                      <span className="text-black max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">
+                        {event.time}
+                      </span>
+                      <span className="text-black font-bold max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">
+                        {event.label}
+                      </span>
                     </div>
                   </div>
                 ))}
