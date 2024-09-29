@@ -1,5 +1,7 @@
 import React from 'react';
-import Schedule from './components/Schedule';
+import ScheduleAdults from './components/ScheduleAdults';
+import ScheduleKids from './components/ScheduleKids';
+
 
 const SchedulePage = () => {
     return (
@@ -12,11 +14,14 @@ const SchedulePage = () => {
                 Schedule for each respective discipline.
                 </div>
             </div>
-            <div className="max-sm:hidden mx-auto max-md:px-5 xs:max-w-screen-md sm:max-w-screen-md md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
-            <Schedule/>
+            <div className="text-center mx-auto max-md:px-5 xs:max-w-screen-md sm:max-w-screen-md md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+                <div className="max-xs:mt-5 font-mono font-family: ui-monospace text-xl underline underline-offset-4">ADULT CLASSES</div>
+                    <ScheduleAdults/>
+                <div className="font-mono font-family: ui-monospace text-xl underline underline-offset-4">KIDS CLASSES</div>
+                    <ScheduleKids/>
             </div>
             {/* Welcome Section for Mobile */}
-            <div className="sm:hidden flex flex-col items-center border border-green-500">
+            <div className="hidden flex-col items-center border border-green-500">
                 <div className="mt-10 mb-10 xxxs:max-w-screen-xxxs xxs:max-w-screen-xxs xs:max-w-screen-xs">
                     <div className="border background p-3 flex flex-col gap-4">
                         <div className="flex flex-col text-center">

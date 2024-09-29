@@ -1,5 +1,5 @@
 import React from 'react';
-import Schedule from './components/Schedule';
+import Schedule from './components/ScheduleAdults';
 import images from "./images";
 import Image from "next/image";
 

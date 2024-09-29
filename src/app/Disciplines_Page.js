@@ -7,7 +7,7 @@ import Image from "next/image";
 function Disciplines() {
   return (
     <div className="flex justify-center mt-10 flex-col" id="disciplines">
-        <div className="bg-black w-full text-white flex items-center flex-col py-10 gap-4 max-md:py-6">
+        <div className="bg-black w-full text-white flex items-center flex-col gap-4 max-md:py-6 py-10">
             <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-mono text-black ">
             <span className="stroke-white stroke-2 text-stroke">DISCIPLINES</span>
             </div>

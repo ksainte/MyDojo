@@ -5,22 +5,22 @@ const Schedule = () => {
   const days = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'SAMEDI','DIMANCHE'];
 
   const events = [
-    { day: 'LUNDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'KARATE 1', color: 'bg-purple-400' },
-    { day: 'LUNDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'KARATE 2', color: 'bg-purple-400' },
-    { day: 'LUNDI', startHour: 20, endHour: 21, time: '20:00-21:00', label: 'KARATE 3', color: 'bg-purple-400' },
+    { day: 'LUNDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'KARATE-BEG.', color: 'bg-purple-400' },
+    { day: 'LUNDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'KARATE-MID.', color: 'bg-purple-400' },
+    { day: 'LUNDI', startHour: 20, endHour: 21, time: '20:00-21:00', label: 'KARATE-ADV.', color: 'bg-purple-400' },
     { day: 'MARDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'JUDO KIDS', color: 'bg-green-300' },
-    { day: 'MARDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-1', color: 'bg-orange-300' },
-    { day: 'MARDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'JUDO 1', color: 'bg-yellow-300' },
-    { day: 'MARDI', startHour: 20, endHour: 21.5, time: '20:00-21:30', label: 'JUDO 2', color: 'bg-yellow-300' },
+    { day: 'MARDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-BEG.', color: 'bg-orange-300' },
+    { day: 'MARDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'JUDO-BEG.', color: 'bg-yellow-300' },
+    { day: 'MARDI', startHour: 20, endHour: 21.5, time: '20:00-21:30', label: 'JUDO-MID.', color: 'bg-yellow-300' },
     { day: 'MERCREDI', startHour: 15, endHour: 16, time: '15:00-16:00', label: 'M.A MINI', color: 'bg-fuchsia-300' },
     { day: 'MERCREDI', startHour: 16, endHour: 17, time: '16:00-17:00', label: 'KARATE KIDS', color: 'bg-green-300' },
     { day: 'MERCREDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'KARATE JUNIOR', color: 'bg-lime-300' },
-    { day: 'MERCREDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-1', color: 'bg-orange-300' },
-    { day: 'MERCREDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'KARATE', color: 'bg-purple-400' },
+    { day: 'MERCREDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-BEG', color: 'bg-orange-300' },
+    { day: 'MERCREDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'KARATE-MIX', color: 'bg-purple-400' },
     { day: 'MERCREDI', startHour: 20, endHour: 21.5, time: '20:00-21:30', label: 'GRAPPLING', color: 'bg-sky-300' },
     { day: 'JEUDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'JUDO KIDS', color: 'bg-green-300' },
-    { day: 'JEUDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-1', color: 'bg-orange-300' },
-    { day: 'JEUDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'K1-2', color: 'bg-orange-300' },
+    { day: 'JEUDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'K1-BEG.', color: 'bg-orange-300' },
+    { day: 'JEUDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'K1-MID', color: 'bg-orange-300' },
     { day: 'JEUDI', startHour: 20, endHour: 21.5, time: '20:00-21:30', label: 'JUDO', color: 'bg-yellow-300' },
     { day: 'VENDREDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'MMA', color: 'bg-red-400' },    
     { day: 'VENDREDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'GRAPPLING', color: 'bg-sky-300' },    
@@ -28,8 +28,8 @@ const Schedule = () => {
     { day: 'SAMEDI', startHour: 11, endHour: 12, time: '11:00-12:00', label: 'KARATE KIDS', color: 'bg-green-300' },
     { day: 'SAMEDI', startHour: 12, endHour: 13, time: '12:00-13:00', label: 'KARATE JUNIOR', color: 'bg-lime-300' },
     { day: 'SAMEDI', startHour: 13, endHour: 15.5, time: '13:00-15:30', label: 'JUDO COMPETITOR', color: 'bg-yellow-300' },
-    { day: 'SAMEDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'K1', color: 'bg-orange-300' },
-    { day: 'SAMEDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'KARATE', color: 'bg-purple-400' },
+    { day: 'SAMEDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'K1-MIX', color: 'bg-orange-300' },
+    { day: 'SAMEDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'KARATE-MIX', color: 'bg-purple-400' },
     { day: 'DIMANCHE', startHour: 14, endHour: 16, time: '14:00-16:00', label: 'KARATE-K1-COMPETITOR', color: 'bg-red-400' },
 
   ];
@@ -50,13 +50,13 @@ const Schedule = () => {
   };
 
   return (
-    <div className="grid grid-cols-8 gap-0 py-10">
+    <div className="grid grid-cols-8 gap-0 max-xs:py-5 py-10">
       {/* Header row with days */}
-      <div className="col-span-1 py-6"></div>
+      <div className="col-span-1 max-xs:py-4 py-6"></div>
       {days.map((day) => (
         <div
           key={day}
-          className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300"
+          className="max-xs:text-[0.50rem] lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300"
         >
           {day}
         </div>
@@ -66,7 +66,7 @@ const Schedule = () => {
       {hours.map((hour) => (
         <React.Fragment key={hour}>
           {/* Time label on the left side */}
-          <div className="lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 py-4 bg-gray-100">
+          <div className="max-xs:text-[0.50rem] lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 max-xs:py-3 py-4 bg-gray-100">
             {`${hour}:00`}
           </div>
           {/* Time slots for each day */}
@@ -82,8 +82,8 @@ const Schedule = () => {
                     style={getEventStyle(event, hour)}
                   >
                     <div className="flex flex-col text-center">
-                      <span className="text-black xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.time}</span>
-                      <span className="text-black font-bold xs:text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.label}</span>
+                      <span className="text-black max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.time}</span>
+                      <span className="text-black font-bold max-xs:text-[0.40rem] xs:text-[0.6rem] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-mono">{event.label}</span>
                     </div>
                   </div>
                 ))}
