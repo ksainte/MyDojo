@@ -15,12 +15,12 @@ function Disciplines() {
                     Everyone is welcome in our club, regardless of your level, physical condition, sex or age.
             </div>
         </div>
-        <div className="grid grid-cols-2 max-xs:gap-5 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
+        <div className="grid grid-cols-2 max-xs:gap-5 gap-6 2xl:gap-8 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
  
-                 <Image src={images.KARATE} className="max-xs:px-14 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-contain w-full" alt="gallery_image"/>
-                 <Image src={images.KID}  className="max-xs:px-14 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-contain w-full" alt="gallery_image"/>
-                 <Image src={images.KICK}  className="max-xs:px-14 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-contain w-full" alt="gallery_image"/>
-                 <Image src={images.MMA}  className="max-xs:px-14 max-xs:object-contain xs:h-[23rem] sm:h-[26rem] md:h-[29rem] lg:h-[32rem] xl:h-[35rem] object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.KARATE} className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.KID}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.KICK}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.MMA}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
 
         </div>
     </div>
