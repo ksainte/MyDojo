@@ -8,11 +8,11 @@ const Schedule = () => {
     { day: 'MARDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'JUDO KIDS', color: 'bg-green-300' },
     { day: 'MERCREDI', startHour: 15, endHour: 16, time: '15:00-16:00', label: 'M.A MINI', color: 'bg-fuchsia-300' },
     { day: 'MERCREDI', startHour: 16, endHour: 17, time: '16:00-17:00', label: 'KARATE KIDS', color: 'bg-green-300' },
-    { day: 'MERCREDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'KARATE JUNIOR', color: 'bg-lime-300' },
+    { day: 'MERCREDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'KARATE JUNIOR', color: 'bg-blue-300' },
     { day: 'JEUDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'JUDO KIDS', color: 'bg-green-300' },   
     { day: 'SAMEDI', startHour: 10, endHour: 11, time: '10:00-11:00', label: 'M.A MINI', color: 'bg-fuchsia-300' },
     { day: 'SAMEDI', startHour: 11, endHour: 12, time: '11:00-12:00', label: 'KARATE KIDS', color: 'bg-green-300' },
-    { day: 'SAMEDI', startHour: 12, endHour: 13, time: '12:00-13:00', label: 'KARATE JUNIOR', color: 'bg-lime-300' },
+    { day: 'SAMEDI', startHour: 12, endHour: 13, time: '12:00-13:00', label: 'KARATE JUNIOR', color: 'bg-blue-300' },
   ];
 
   const getEventStyle = (event, hour) => {

@@ -18,7 +18,7 @@ const Schedule = () => {
     { day: 'JEUDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'K1-MID', color: 'bg-orange-300' },
     { day: 'JEUDI', startHour: 20, endHour: 21.5, time: '20:00-21:30', label: 'JUDO', color: 'bg-yellow-300' },
     { day: 'VENDREDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'MMA', color: 'bg-red-400' },    
-    { day: 'VENDREDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'GRAPPLING', color: 'bg-sky-300' },    
+    { day: 'VENDREDI', startHour: 19, endHour: 20, time: '19:00-20:00', label: 'GRAPPLING', color: 'bg-sky-300' },
     { day: 'SAMEDI', startHour: 13, endHour: 15.5, time: '13:00-15:30', label: 'JUDO COMPETITOR', color: 'bg-yellow-300' },
     { day: 'SAMEDI', startHour: 17, endHour: 18, time: '17:00-18:00', label: 'K1-MIX', color: 'bg-orange-300' },
     { day: 'SAMEDI', startHour: 18, endHour: 19, time: '18:00-19:00', label: 'KARATE-MIX', color: 'bg-purple-400' },
