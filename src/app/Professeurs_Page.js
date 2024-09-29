@@ -42,7 +42,7 @@ const ProfesseursPage = () => {
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">ARTHUR BUYSSENS</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">professeur karate, K1, MMA </div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
-                            2nd Dan Shidokan Karate, competes in multiple tournaments all over the world, he now brings his expertise in diverse classes at Shidostudio.
+                            2nd Dan Shidokan Karate, competes in multiple tournaments all over the world, he now brings his expertise in diverse classes at Shidostudio, unless he's busy walking out his dog.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
@@ -69,7 +69,7 @@ const ProfesseursPage = () => {
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">SAID CHAABI</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur grappling</div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace ">
-                            He learned Jiu-Jitsu in Brazil as there were no classes in Belgium yet at the time. He is a Black belt as long as we can remember.
+                            He learned Jiu-Jitsu in Brazil when none was taught in Belgium yet at the time. He is a Black belt as long as we can remember.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
@@ -80,7 +80,7 @@ const ProfesseursPage = () => {
                             <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">MOUBARAK BOULAICH</div>
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur judo </div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
-                            Long time teacher, he now represents Marocco at the international stage. Don't try to catch him he is too agile.
+                            Long time teacher, he now represents Marocco at the international stage. P.S: reminder, don't pull-guard with him.
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>

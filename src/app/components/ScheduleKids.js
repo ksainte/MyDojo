@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Schedule = () => {
-  const hours = Array.from({ length: 12 }, (_, i) => 10 + i * 1); // Hours from 10 to 20
+  const hours = Array.from({ length: 9 }, (_, i) => 10 + i * 1); // Hours from 10 to 20
   const days = ['LUNDI', 'MARDI', 'MERCREDI', 'JEUDI', 'VENDREDI', 'SAMEDI','DIMANCHE'];
 
   const events = [
