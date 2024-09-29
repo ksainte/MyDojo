@@ -21,6 +21,13 @@ import Tiago from './components/images/Tiago.jpg'
 import Arthur from './components/images/Arthur.jpg'
 import Yuli from './components/images/Yuli.jpeg'
 import Yuli3 from './components/images/Yuli3.jpg'
+import KID from './components/images/KARATE SHIDOKAN KID.png'
+import KARATE from './components/images/KARATE SHIDOKAN.png'
+import MMA from './components/images/MIXED MARTIAL ARTS.png'
+import KICK from './components/images/KICKBOXING.png'
+
+
+
 
 
 
@@ -53,5 +60,9 @@ export default
     Tiago,
     Arthur,
     Yuli,
-    Yuli3
+    Yuli3,
+    KID,
+    KARATE,
+    KICK,
+    MMA
 }

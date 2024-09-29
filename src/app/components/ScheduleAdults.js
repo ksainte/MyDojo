@@ -28,7 +28,7 @@ const Schedule = () => {
   const getEventStyle = (event) => {
     const duration = (event.endHour - event.startHour) * 100; // Duration based on hours
     return {
-      top: 0.5,
+      top: 0,
       height: `${duration}%`,
       width: '100%',
       left: 0,
@@ -46,7 +46,7 @@ const Schedule = () => {
       {days.map((day) => (
         <div
           key={day}
-          className="max-xs:text-[0.50rem] lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300 "
+          className="max-xs:text-[0.50rem] xs:text-xs sm:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-mono flex justify-center items-center font-bold bg-gray-200 border border-gray-300 "
         >
           {day}
         </div>
@@ -56,7 +56,7 @@ const Schedule = () => {
       {hours.map((hour) => (
         <React.Fragment key={hour}>
           {/* Time label on the left side */}
-          <div className="max-xs:text-[0.50rem] lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 max-xs:py-3 py-4 bg-gray-100">
+          <div className="max-xs:text-[0.50rem] xs:text-xs sm:text-xs lg:text-base xl:text-lg 2xl:text-xl font-mono italic flex items-center justify-center border border-gray-300 max-xs:py-3 py-4 bg-gray-100">
             {`${hour}:00`}
           </div>
           {/* Time slots for each day */}

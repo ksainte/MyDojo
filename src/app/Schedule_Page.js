@@ -15,9 +15,9 @@ const SchedulePage = () => {
                 </div>
             </div>
             <div className="text-center mx-auto max-md:px-5 xs:max-w-screen-md sm:max-w-screen-md md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
-                <div className="max-xs:mt-5 font-mono font-family: ui-monospace text-xl underline underline-offset-4">ADULT CLASSES</div>
+                <div className="max-xs:mt-5 mt-10 font-mono font-family: ui-monospace text-xl xs:text-2xl lg:text-3xl xl:text-4xl underline underline-offset-4">ADULT CLASSES</div>
                     <ScheduleAdults/>
-                <div className="font-mono font-family: ui-monospace text-xl underline underline-offset-4">KIDS CLASSES</div>
+                <div className="font-mono font-family: ui-monospace text-xl xs:text-2xl lg:text-3xl xl:text-4xl underline underline-offset-4">KIDS CLASSES</div>
                     <ScheduleKids/>
             </div>
             {/* Welcome Section for Mobile */}
