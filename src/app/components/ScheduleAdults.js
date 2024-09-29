@@ -72,10 +72,10 @@ const Schedule = () => {
                     style={getEventStyle(event)}
                   >
                     <div className="flex flex-col text-center">
-                      <span className="text-black max-xxs:text-[0.25rem] max-xs:text-[0.30rem] xs:text-[0.4rem] sm:text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-lg 2xl:text-xl font-mono">
+                      <span className="text-black max-xxs:text-[0.20rem] max-xs:text-[0.25rem] xs:text-[0.4rem] sm:text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-lg 2xl:text-xl font-mono">
                         {event.time}
                       </span>
-                      <span className="text-black font-bold max-xxs:text-[0.3rem] max-xs:text-[0.35rem] xs:text-[0.4rem] sm:text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-base 2xl:text-xl font-mono">
+                      <span className="text-black font-bold max-xxs:text-[0.25rem] max-xs:text-[0.30rem] xs:text-[0.4rem] sm:text-[0.5rem] md:text-[0.6rem] lg:text-xs xl:text-base 2xl:text-xl font-mono">
                         {event.label}
                       </span>
                     </div>
