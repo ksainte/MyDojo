@@ -18,18 +18,19 @@ export default function Navbar() {
     <div className=" w-screen" id="navbar ">
       
 
-      <div className="justify-between flex lg:grid grid-cols-12 xl:px-28 lg:p-10 px-6 py-2 fixed top-0 w-screen bg-white z-40">
+      <div className="justify-between flex lg:grid grid-cols-12 xl:px-24 lg:px-16 lg:p-8 fixed top-0 w-screen bg-white z-40">
 
         <div className="col-span-3 max-xxs:hidden">
 
-          <Link href="/">
-            <Image className="max-xs:w-52 xs:w-56 sm:w-64 md:w-72 lg:w-80  my-auto -mx-4 w-60"src={images.logo4} alt="ShidoStudio" />
+          <Link href="/" className="flex gap-2">
+            <Image className="max-lg:hidden lg:w-20 xl:w-20 my-auto  "src={images.logo_off} alt="ShidoStudio" />
+            <Image className="max-xs:w-52 xs:w-56 sm:w-64 md:w-72 lg:w-48  my-auto  xl:w-52 max-lg:p-4"src={images.logo4} alt="ShidoStudio" />
             </Link>          
         </div>
 
         <div className="justify-end lg:col-span-9 flex">
 
-          <ul className=" lg:text-lg xl:text:xl 2xl:text-2xl flex lg:gap-3 xl:gap-7 my-auto max-lg:hidden space-x-3.5">
+          <ul className=" lg:text-base xl:text-base 2xl:text-2xl flex lg:gap-4 xl:gap-10 my-auto max-lg:hidden  ">
 
             <li>
               <Link href="/" className="links">
@@ -72,7 +73,7 @@ export default function Navbar() {
         </div>
 
 
-        <div className="lg:hidden my-auto ">
+        <div className="lg:hidden my-auto p-4">
           <GiHamburgerMenu
             className=""
             color="black"

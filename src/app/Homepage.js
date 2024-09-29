@@ -57,7 +57,11 @@ function Homepage() {
         <div className="flex items-center relative min-h-screen w-screen ">
           <div className="background-layer"></div>
           <div className="flex flex-col  items-center justify-evenly h-screen text-center relative  p-1">
-          <Image className="max-w-[90%] xs:max-w-[70%]" src={images.logo} alt="ShidoStudio" />
+          {/* <Image className="max-w-[90%] xs:max-w-[70%]" src={images.logo} alt="ShidoStudio" /> */}
+          <div className='flex flex-col items-center gap-2'>
+          <Image className="max-w-[90%]  max-xs:max-w-[50%] xs:max-w-[50%] sm:max-w-[40%] md:max-w-[30%]" src={images.logo_off} alt="ShidoStudio" />
+          <Image className="max-w-[90%]  max-xs:max-w-[70%] xs:max-w-[60%] sm:max-w-[50%] md:max-w-[40%]" src={images.logo4} alt="ShidoStudio" />
+          </div>
           <div className="text-black text-2xl xs:text-3xl  font-bold font-mono">
             A MARTIAL ARTS AND FIGHTING SPORTS CLUB
             </div>
