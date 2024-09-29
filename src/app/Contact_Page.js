@@ -10,7 +10,9 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
-  faEtsy
+  faEtsy,
+  faGlobe,
+  faInternetExplorer
 } from "@fortawesome/free-brands-svg-icons";
 
 const DisciplineStyle = {
@@ -61,7 +63,7 @@ const ContactPage = () => {
                     </div>
                     <div className="list-none flex gap-3 flex-shrink-0"> {/* Added ml-4 for spacing */}
                         <li>
-                            <a href="https://www.youtube.com/">
+                            <a href="https://www.youtube.com/shorts/YJL_iOdfcpo">
                                 <FontAwesomeIcon icon={faYoutube} className="w-8 h-8" />
                             </a>
                         </li>
@@ -71,8 +73,8 @@ const ContactPage = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.twitter.com/">
-                                <FontAwesomeIcon icon={faTwitter} className="w-8 h-8" />
+                            <a href="https://www.dhnet.be/sports/sport-regional/bruxelles/2023/05/24/karate-shidokan-le-shidostudio-a-brille-lors-de-lopen-de-belgique-FVMKQRRQWJGEZN4N4VK6PPVRBY/">
+                                <FontAwesomeIcon icon={faInternetExplorer} className="w-8 h-8" />
                             </a>
                         </li>
                     </div>

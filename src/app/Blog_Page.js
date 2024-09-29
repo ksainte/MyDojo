@@ -44,15 +44,16 @@ function Blog() {
           <div className="xxxs:max-w-screen-xs xxs:max-w-screen-xs xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl">
             <div className="max-xs:mb-5 flex justify-center list-none items-center gap-2 underline underline-offset-8">
             <li>
+              <a href="https://www.instagram.com/shidostudio">
               <FontAwesomeIcon icon={faInstagram} className="max-xs:w-6 max-xs:h-6 w-8 h-8" />
-              <a href="https://www.instagram.com/"></a>
+              </a>
             </li>
               <div className="  text-black flex justify-center font-mono	font-family: ui-monospace lg:text-xl max-xs:text-xl xl:text-2xl 2xl:text-3xl italic underline underline-offset-8">Instagram </div>
           </div>
             {/* <div className=" flex-grow h-px bg-purple-500 "></div> */}
             <div className="max-xs:mx-14 max-xxs:ml-20 2xl:mt-10">
             <Gallery 
-              images={[images.homepage2, images.homepage1, images.blog3, images.blog2, images.blog1, images.homepage3, images.homepage3]}
+              images={[images.mer, images.grad, images.parc, images.compet_kids]}
               flexDirection="row"
               display="none"
               heightClass=" xxxs:h-[11rem] xxs:h-[13rem] xs:h-[16rem] sm:h-[18rem] md:h-[20rem] lg:h-[25rem] xl:h-[30rem] 2xl:h-[30rem]" 

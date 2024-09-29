@@ -26,6 +26,10 @@ import KARATE from './components/images/KARATE SHIDOKAN.png'
 import MMA from './components/images/MIXED MARTIAL ARTS.png'
 import KICK from './components/images/KICKBOXING.png'
 import logo_off from './components/images/logoshidostudio.png'
+import compet_kids from './components/images/compet_kids.jpg'
+import grad from './components/images/grad.jpg'
+import parc from './components/images/parc.jpg'
+import mer from './components/images/mer.jpg'
 
 
 
@@ -59,5 +63,9 @@ export default
     KARATE,
     KICK,
     MMA,
-    logo_off
+    logo_off,
+    compet_kids,
+    grad,
+    mer,
+    parc
 }

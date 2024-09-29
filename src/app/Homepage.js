@@ -11,7 +11,8 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
-  faEtsy
+  faEtsy,
+  faInternetExplorer
 } from "@fortawesome/free-brands-svg-icons";
 
 function Homepage() {
@@ -24,16 +25,19 @@ function Homepage() {
         </div>
         <div className="list-none mt-4">
           <li>
-            <FontAwesomeIcon icon={faYoutube} className="w-8 h-8 " />
-            <a href="https://www.facebook.com/"></a>
+            <a href="https://www.youtube.com/shorts/YJL_iOdfcpo">
+            <FontAwesomeIcon icon={faYoutube} className="w-8 h-8 "/>
+            </a>
           </li>
           <li>
+            <a href="https://www.instagram.com/shidostudio">
             <FontAwesomeIcon icon={faInstagram} className="w-8 h-8 mt-2" />
-            <a href="https://www.instagram.com/"></a>
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faTwitter} className="w-8 h-8 mt-2" />
-            <a href="https://www.etsy.com/"></a>
+          <a href="https://www.dhnet.be/sports/sport-regional/bruxelles/2023/05/24/karate-shidokan-le-shidostudio-a-brille-lors-de-lopen-de-belgique-FVMKQRRQWJGEZN4N4VK6PPVRBY/">
+            <FontAwesomeIcon icon={faInternetExplorer} className="w-8 h-8 mt-2" />
+          </a>
           </li>
         </div>
 
