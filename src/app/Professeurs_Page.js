@@ -74,6 +74,17 @@ const ProfesseursPage = () => {
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
                     </div>
+                    <div className="flex flex-col max-md:w-3/4 w-1/3">
+                        <Image src={images.Saber}  className="max-xs:h-[25rem] xs:h-[35rem]" style={DisciplineStyle} alt="gallery_image"/>   
+                        <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
+                            <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SABER EL MOUDNI</div>
+                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace  text-center">professeur judo</div>
+                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
+                            2nd Dan in Judo, competitor, teacher, referee, he is so involved that he even works at the Judo Federation. 
+                            </div>
+                            <div className="w-full h-px bg-white mt-3"></div> 
+                        </div>
+                    </div>
                     <div className="flex flex-col max-md:w-3/4 w-1/3 ">
                         <Image src={images.Mubarak} className="max-xs:h-[25rem] xs:h-[35rem]" style={DisciplineStyle} alt="gallery_image"/>
                         <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
@@ -81,17 +92,6 @@ const ProfesseursPage = () => {
                             <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace text-center">professeur judo </div>
                             <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
                             Long time teacher, he now represents Marocco at the international stage. P.S: reminder, don't pull-guard with him.
-                            </div>
-                            <div className="w-full h-px bg-white mt-3"></div> 
-                        </div>
-                    </div>
-                    <div className="flex flex-col max-md:w-3/4 w-1/3">
-                        <Image src={images.Saber}  className="max-xs:h-[25rem] xs:h-[35rem]" style={DisciplineStyle} alt="gallery_image"/>   
-                        <div className="bg-purple-700 flex flex-col gap-2 p-8 max-lg:p-8 text-white items-center">
-                            <div className="xxxs:text-xl xxs:text-2xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace text-center">SABER EL MOUDNI</div>
-                            <div className="xxxs:text-lg xxs:text-lg xs:text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace  text-center">professeur judo</div>
-                            <div className="xxxs:text-sm xxs:text-base xs:text-base sm:text-base md:text-base lg:text-lg xl:text-lg 2xl:text-xl font-mono	font-family: ui-monospace">
-                            Competitor, teacher, referee, he is so involved that he even works at the Judo Federation. 
                             </div>
                             <div className="w-full h-px bg-white mt-3"></div> 
                         </div>
