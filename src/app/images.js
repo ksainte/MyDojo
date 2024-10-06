@@ -30,6 +30,7 @@ import compet_kids from './components/images/compet_kids.jpg'
 import grad from './components/images/grad.jpg'
 import parc from './components/images/parc.jpg'
 import mer from './components/images/mer.jpg'
+import map1 from './components/images/map1.jpg'
 
 
 
@@ -67,5 +68,6 @@ export default
     compet_kids,
     grad,
     mer,
-    parc
+    parc,
+    map1
 }

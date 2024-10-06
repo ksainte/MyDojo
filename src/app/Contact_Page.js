@@ -30,9 +30,9 @@ const ContactPage = () => {
                 <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-mono text-black ">
                 <span className="stroke-white stroke-2 text-stroke">CONTACT</span>
                 </div>
-                <div className="max-lg:text-center xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl xs:text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace italic max-lg:px-4">
+                {/* <div className="max-lg:text-center xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl xs:text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-mono font-family: ui-monospace italic max-lg:px-4">
                 Adresse: Rue de l’Hôtel des Monnaies 27, 1060 Saint-Gilles, Bruxelles. 
-                </div>
+                </div> */}
             </div>
             <div className="flex justify-center w-full mt-10 px-2">
                 <div className="flex justify-evenly items-center w-full  xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl gap-10">
@@ -49,10 +49,10 @@ const ContactPage = () => {
                             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">TELEPHONE</div>
                             <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">+32 4 88 47 69 06</div>
                             <div className="lg:text-xl xl:text-2xl 2xl:text-3xl font-bold font-mono	font-family: ui-monospace">EMAIL</div>
-                            <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@hotmail.be</div>
+                            <div className="lg:text-lg xl:text-xl 2xl:text-2xl font-mono	font-family: ui-monospace">shidostudio@outlook.com</div>
 
                         </div>
-                        <Image src={images.map} className=" px-5 sm:p-10 lg:p-8 xl:p-4  2xl:p-2 max-xxs:-mt-28 max-xxs:-mb-28 max-xs:-mt-20 max-xs:-mb-20" style={DisciplineStyle} alt="gallery_image"/>
+                        <Image src={images.map1} className=" px-5 sm:p-10 lg:p-8 xl:p-4  2xl:p-2 max-xxs:-mt-28 max-xxs:-mb-28 max-xs:-mt-20 max-xs:-mb-20" style={DisciplineStyle} alt="gallery_image"/>
                     </div>
                 </div>
             </div>
