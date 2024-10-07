@@ -21,6 +21,10 @@ function Disciplines() {
                  <Image src={images.KID}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.KICK}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.MMA}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.judo} className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.judokids}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.grappling}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
+                 <Image src={images.yoga}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
 
         </div>
     </div>

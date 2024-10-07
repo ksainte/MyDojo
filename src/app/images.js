@@ -31,7 +31,11 @@ import grad from './components/images/grad.jpg'
 import parc from './components/images/parc.jpg'
 import mer from './components/images/mer.jpg'
 import map1 from './components/images/map1.jpg'
-
+import test from './components/images/test.jpg'
+import yoga from './components/images/YOGA-corrige.png'
+import judo from './components/images/JUDO.png'
+import judokids from './components/images/JUDO KID.png'
+import grappling from './components/images/GRAPPLING.png'
 
 
 
@@ -69,5 +73,10 @@ export default
     grad,
     mer,
     parc,
-    map1
+    map1,
+    test,
+    grappling,
+    judo,
+    judokids,
+    yoga
 }

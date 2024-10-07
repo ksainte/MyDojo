@@ -5,10 +5,8 @@
 }
 
 .Gallery_Down_design {
-    /* margin-top: 4rem; */
     display: flex;
     flex-direction: row;
-    /* width: 70vw; */
 }
 
 .app__gallery {
@@ -23,8 +21,6 @@
 
 .app__gallery-images {
 
-    /* margin-left:2rem; */
-        /* margin-right:2rem; */
     scroll-snap-align: start;
 }
 
