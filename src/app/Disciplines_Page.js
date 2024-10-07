@@ -16,7 +16,6 @@ function Disciplines() {
             </div>
         </div>
         <div className="grid grid-cols-2 max-xs:gap-5 gap-6 2xl:gap-8 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto py-10 max-xs:flex max-xs:flex-col">
- 
                  <Image src={images.KARATE} className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.KID}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.KICK}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
@@ -25,7 +24,6 @@ function Disciplines() {
                  <Image src={images.judokids}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.grappling}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
                  <Image src={images.yoga}  className="max-xs:px-14  object-contain w-full" alt="gallery_image"/>
-
         </div>
     </div>
   );

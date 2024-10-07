@@ -25,7 +25,7 @@ const Schedule = () => {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      zIndex: 100, // Ensure it appears above the slot borders
+      zIndex: 10, // Ensure it appears above the slot borders
     };
   };
 
