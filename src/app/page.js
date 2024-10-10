@@ -7,8 +7,6 @@ import ProfesseursPage from "./Professeurs_Page";
 import ContactPage from "./Contact_Page";
 
 
-
-
 export default function Home() {
   return (
     <main style={{width:'100vw'}}>
