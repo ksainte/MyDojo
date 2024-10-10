@@ -1,18 +1,18 @@
-import React from 'react';
-import '../components/Class.css';
-import images from "../images";
-import Gallery from "../Gallery";
+// import React from 'react';
+// import '../components/Class.css';
+// import images from "../images";
+// import Gallery from "../Gallery";
 
 
 
-function BlogPage() {
-  return (
-    <div className="grid grid-cols-12">
+// function BlogPage() {
+//   return (
+//     <div className="grid grid-cols-12">
 
-        HEYYYYYYYYYYYYYYYYYYYYYYYYYYY
+//         HEYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default BlogPage;
+// export default BlogPage;
