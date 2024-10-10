@@ -7,4 +7,4 @@ export default function robots() {
       },
       sitemap: 'https://shidostudio.be/sitemap.xml',
     }
-  }
+  }``
