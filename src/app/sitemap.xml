@@ -1,0 +1,20 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.shidostudio.be/</loc>
+    <lastmod>2024-10-10T08:59:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.shidostudio.be//#disciplines</loc>
+    <lastmod>2024-10-10T08:59:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.shidostudio.be//#horaires</loc>
+    <lastmod>2024-10-10T08:59:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
