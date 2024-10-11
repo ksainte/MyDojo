@@ -14,9 +14,9 @@ export const metadata = {
     siteName: "Shidostudio",
     images: [
       {
-        url: "https://www.shidostudio.be",
-        width: 800,
-        height: 600,
+        url: "https://www.shidostudio.be/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogoshidostudio.519ee4be.png&w=3840&q=75",
+        width: 300,
+        height: 300,
       },
     ],
     locale: "en_US",
