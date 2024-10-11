@@ -5,6 +5,7 @@ Allow: /components/images/Tiago.jpg
 Allow: /components/images/Said.jpg
 Allow: /components/images/Moubarak2.jpg
 Allow: /components/images/Saber.jpg
+
 Disallow: /components/images/
 
 Sitemap: https://shidostudio.be/sitemap.xml
