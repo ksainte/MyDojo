@@ -3,8 +3,8 @@ Allow: /components/images/Yuli3.jpg
 Allow: /components/images/Arthur.jpg
 Allow: /components/images/Tiago.jpg
 Allow: /components/images/Said.jpg
-Allow: /components/images/Saber.jpg
 Allow: /components/images/Moubarak2.jpg
+Allow: /components/images/Saber.jpg
 Disallow: /components/
 
 Sitemap: https://shidostudio.be/sitemap.xml
