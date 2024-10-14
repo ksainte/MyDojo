@@ -66,9 +66,9 @@ function Homepage() {
           <Image className="max-w-[90%]  max-xs:max-w-[45%] xs:max-w-[40%] sm:max-w-[35%] md:max-w-[30%]" src={images.logo_off} alt="ShidoStudio" />
           <Image className="max-w-[90%]  max-xs:max-w-[70%] xs:max-w-[60%] sm:max-w-[50%] md:max-w-[40%]" src={images.logo4} alt="ShidoStudio" />
           </div>
-          <div className="text-black text-2xl xs:text-3xl  font-bold font-mono">
+          <h1 className="text-black text-2xl xs:text-3xl  font-bold font-mono">
             A MARTIAL ARTS AND FIGHTING SPORTS CLUB
-            </div>
+            </h1>
           </div>
         </div>
       </div>
@@ -76,28 +76,28 @@ function Homepage() {
 
       <div className=" bg-black col-span-12 flex flex-col items-center gap-4  text-white font-mono py-10 max-sm:py-6">
           <div className="flex max-lg:hidden max-sm:flex-col items-center">
-              <div className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+              <h2 className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               SHIDOSTUDIO
-              </div>
-              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+              </h2>
+              <h1 className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
                   A MARTIAL ARTS AND FIGHTING SPORTS CLUB
-              </div>
+              </h1>
             </div>
             <div className="flex max-sm:flex-col items-center">
-              <div className=" font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+              <h2 className=" font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               WE PRACTICE
-              </div>
-              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
-              MULTIPLE MARTIAL ARTS
-              </div>
+              </h2>
+              <h1 className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+              KARATE, K1, MMA, JUDO AND GRAPPLING
+              </h1>
             </div>
             <div className="flex max-sm:flex-col items-center">
-              <div className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
+              <h2 className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               ALL LEVELS
-              </div>
-              <div className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
-                  FOR ADULTS AND FOR KIDS
-              </div>
+              </h2>
+              <h1 className="xxxs:text-md xxs:text-lg xs:text-xl sm:text-md md:text-lg  lg:text-xl xl:text-2xl 2xl:text-3xl italic">
+                  BEGINNER TO ADVANCED. FOR ADULTS AND FOR KIDS
+              </h1>
             </div>
       </div>
     </div>
