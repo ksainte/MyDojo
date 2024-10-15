@@ -7,11 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SHIDOSTUDIO - A Martial Arts And Fighting Sports Club",
-  description: "Shidostudio. A new club specializing in martial arts. Come train with our dedicated professors in the heart of Brussels.",
-  // description: "Nouveau club d'arts martiaux au centre de Bruxelles. Nous pratiquons le Karate, K1, MMA, Judo et Grappling.Tous niveaux,et tout âge,petits,enfants et adultes",
+  description: "Nouveau club d'arts martiaux au centre de Bruxelles. Nous pratiquons le Karate, K1, MMA, Judo et Grappling.Tous niveaux,et tout âge,petits,enfants et adultes.",
   openGraph: {
     title: "SHIDOSTUDIO - A Martial Arts And Fighting Sports Club",
-    description: "Shidostudio is a new club specializing in martial arts. Come train with our dedicated professors in the heart of Brussels.",
+    description: "Nouveau club d'arts martiaux au centre de Bruxelles. Nous pratiquons le Karate, K1, MMA, Judo et Grappling. Tous niveaux,et tout âge, petits, enfants et adultes.",
     siteName: "Shidostudio",
     locale: "en_US",
     type: "website",
