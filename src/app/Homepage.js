@@ -75,7 +75,7 @@ function Homepage() {
 
 
       <div className=" bg-black col-span-12 flex flex-col items-center gap-4  text-white font-mono py-10 max-sm:py-6">
-          <div className="flex max-lg:hidden max-sm:flex-col items-center">
+          <div className="flex max-lg:hidden max-sm:flex-col items-center text-center">
               <h2 className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               SHIDOSTUDIO
               </h2>
@@ -83,7 +83,7 @@ function Homepage() {
                   A MARTIAL ARTS AND FIGHTING SPORTS CLUB
               </h1>
             </div>
-            <div className="flex max-sm:flex-col items-center">
+            <div className="flex max-sm:flex-col items-center text-center">
               <h2 className=" font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               WE PRACTICE
               </h2>
@@ -91,7 +91,7 @@ function Homepage() {
               KARATE, K1, MMA, JUDO AND GRAPPLING
               </h1>
             </div>
-            <div className="flex max-sm:flex-col items-center">
+            <div className="flex max-sm:flex-col items-center text-center">
               <h2 className="font-bold xxxs:text-lg xxs:text-lg xs:text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mr-5">
               ALL LEVELS
               </h2>
